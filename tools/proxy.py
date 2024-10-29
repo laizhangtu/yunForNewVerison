@@ -59,13 +59,13 @@ class Yun:
             file_count = 0
         return file_count
     def request(flow: mitmproxy.http.HTTPFlow) -> None:
-        if "210.45.246.53:8080" not in flow.request.pretty_url:
+        if "47.99.163.239:8080" not in flow.request.pretty_url:
             flow.live = False
 
     def response(self, flow: mitmproxy.http.HTTPFlow):
         
         req_url = flow.request.url
-        if "210.45.246.53:8080" in req_url :
+        if "47.99.163.239:8080" in req_url :
             
             if(self.saved == False and match_str(req_url,["getStudentInfo","AppSysMsgApi","homePageApi","crsReocordInfo"])):
                 
@@ -87,7 +87,7 @@ class Yun:
                 default_key =  "ruC9+TPTkI3YzJTfbuFz9A=="
                 CipherKeyEncrypted = "BIQWEosEECsZ6WdwU1lTkkLAXeN+t2rgDytWN+wMYKAXfDni7XUsfGcxsfQVCPrDrO73Wl6ZJd+/bJN+454r7W3XtWkF0SrqQ+khtaqOV9feXaNtvIB13ACUaWXtYEczSHenDnFfwqR0Y+YnHc+6ml+WY+oed3MfHg=="
                 def proxy_post(data, headers, isBytes=False):   #对default_post函数的模仿
-                    url = "http://210.45.246.53:8080/login/getStudentInfo"
+                    url = "http://47.99.163.239:8080/login/getStudentInfo"
                     data_json = {
                         "cipherKey":CipherKeyEncrypted,
                         "content":encrypt_sm4(data, b64decode(default_key),isBytes=isBytes)
