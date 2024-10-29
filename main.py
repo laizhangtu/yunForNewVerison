@@ -32,7 +32,7 @@ PRIVATE_KEY = b64decode(PrivateKey)
 def parse_args():
     parser = argparse.ArgumentParser(description='云运动自动跑步脚本')
     parser.add_argument('-f', '--config_path', type=str, default='./config.ini', help='配置文件路径')
-    parser.add_argument('-t', '--task_path', type=str, default='./tasks_fch', help='任务文件路径')
+    parser.add_argument('-t', '--task_path', type=str, default='./tasks_3km', help='任务文件路径')
     parser.add_argument('-a', '--auto_run', action='store_true', help='自动跑步，默认打表')
     parser.add_argument('-d', '--drift', action='store_true', help='是否添加漂移')
     return parser.parse_args()

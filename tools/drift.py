@@ -65,9 +65,9 @@ if __name__ == '__main__':
     print("此脚本用于对已有的tasklist进行少量偏移、步频配速重新随机、并写回到原json中")
     print("不建议直接使用，建议在main中自动调用")
     print("对一个json的累计更改可能会导致路线鬼畜.")
-    pos_choice = input("你需要修改哪一个tasklist？(1.男生 2.女生 3.其他)")
+    pos_choice = input("你需要修改哪一个tasklist？(1.3km  2.2km 3.其他)")
 
-    path = "../tasks_male" if pos_choice == "1" else "../tasks_female" if pos_choice == "2" else "./tasks_else"
+    path = "../tasks_3km" if pos_choice == "1" else "../tasks_2km" if pos_choice == "2" else "./tasks_else"
     chi = input("选择要更改的文件: ")
 
     FilePath = os.path.join(path, "tasklist_" + chi + ".json")

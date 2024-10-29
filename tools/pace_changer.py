@@ -38,8 +38,8 @@ def change_all(path_dir, target_speed:str):
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
-    pos_choice = input("你需要修改哪一个tasklist？(1.男生 2.女生 3.其他)")
-    path = "../tasks_male" if pos_choice == "1" else "../tasks_female" if pos_choice == "2" else "./tasks_else"
+    pos_choice = input("你需要修改哪一个tasklist？(1.3KM 2.2KM 3.其他)")
+    path = "../tasks_3KM" if pos_choice == "1" else "../tasks_2KM" if pos_choice == "2" else "./tasks_else"
     choice = input("你需要修改哪一个tasklist？(All or index)")
     speed = input("你要的配速是多少分钟？(示例：4.5， 输入random在[4.5-5.5]随机)")
     try:
