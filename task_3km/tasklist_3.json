@@ -1,0 +1,5391 @@
+{
+    "msg": "操作成功",
+    "code": 200,
+    "data": {
+        "recordMileage": 3.03,
+        "recodePace": 4.8,
+        "recodeCadence": 195,
+        "recodeDislikes": 5,
+        "duration": 872,
+        "pointsList": [
+            {
+                "id": 0,
+                "point": "117.0244899387538,32.55615212953982",
+                "speed": 4.5,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "3",
+                "isFence": "Y",
+                "runMileage": "10.278077125549316"
+            },
+            {
+                "id": 0,
+                "point": "117.0245009280514,32.556202289300174",
+                "speed": 5.09,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "4",
+                "isFence": "Y",
+                "runMileage": "15.949886322021484"
+            },
+            {
+                "id": 0,
+                "point": "117.02450171975259,32.556252531024924",
+                "speed": 4.29,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "6",
+                "isFence": "Y",
+                "runMileage": "21.537004470825195"
+            },
+            {
+                "id": 0,
+                "point": "117.02449953090758,32.55629308839701",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "8",
+                "isFence": "Y",
+                "runMileage": "26.051443099975586"
+            },
+            {
+                "id": 0,
+                "point": "117.02449448008693,32.55631579767601",
+                "speed": 6.51,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "9",
+                "isFence": "Y",
+                "runMileage": "28.620586395263672"
+            },
+            {
+                "id": 0,
+                "point": "117.02448871792822,32.55634085270625",
+                "speed": 4.16,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "11",
+                "isFence": "Y",
+                "runMileage": "31.458436965942383"
+            },
+            {
+                "id": 0,
+                "point": "117.02448465767277,32.55638549784001",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "13",
+                "isFence": "Y",
+                "runMileage": "36.437313079833984"
+            },
+            {
+                "id": 0,
+                "point": "117.02448219160259,32.556434607160355",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "14",
+                "isFence": "Y",
+                "runMileage": "41.90290832519531"
+            },
+            {
+                "id": 0,
+                "point": "117.02448190636169,32.556474129031265",
+                "speed": 4.56,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "16",
+                "isFence": "Y",
+                "runMileage": "46.29762268066406"
+            },
+            {
+                "id": 0,
+                "point": "117.02448235176485,32.55653737721228",
+                "speed": 4.46,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "18",
+                "isFence": "Y",
+                "runMileage": "53.330623626708984"
+            },
+            {
+                "id": 0,
+                "point": "117.02448418167528,32.55659560592667",
+                "speed": 4.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "19",
+                "isFence": "Y",
+                "runMileage": "59.80763244628906"
+            },
+            {
+                "id": 0,
+                "point": "117.0244867435888,32.55666435012906",
+                "speed": 4.1,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "21",
+                "isFence": "Y",
+                "runMileage": "67.45541381835938"
+            },
+            {
+                "id": 0,
+                "point": "117.02448903846543,32.55672759057378",
+                "speed": 4.14,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "23",
+                "isFence": "Y",
+                "runMileage": "74.49072265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449016957753,32.5567857285927",
+                "speed": 4.47,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "24",
+                "isFence": "Y",
+                "runMileage": "80.95624542236328"
+            },
+            {
+                "id": 0,
+                "point": "117.0244931686204,32.5568463632784",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "26",
+                "isFence": "Y",
+                "runMileage": "87.7043685913086"
+            },
+            {
+                "id": 0,
+                "point": "117.02449314308932,32.55690667677535",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "28",
+                "isFence": "Y",
+                "runMileage": "94.41092681884766"
+            },
+            {
+                "id": 0,
+                "point": "117.02448880303213,32.55696334822974",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "29",
+                "isFence": "Y",
+                "runMileage": "100.72561645507812"
+            },
+            {
+                "id": 0,
+                "point": "117.02447789686092,32.557013583247624",
+                "speed": 5.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "31",
+                "isFence": "Y",
+                "runMileage": "106.40424346923828"
+            },
+            {
+                "id": 0,
+                "point": "117.02445941314812,32.55705945245048",
+                "speed": 5.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "32",
+                "isFence": "Y",
+                "runMileage": "111.79082489013672"
+            },
+            {
+                "id": 0,
+                "point": "117.02443415846952,32.55710324656966",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "34",
+                "isFence": "Y",
+                "runMileage": "117.20525360107422"
+            },
+            {
+                "id": 0,
+                "point": "117.02439620483186,32.5571470849359",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "36",
+                "isFence": "Y",
+                "runMileage": "123.23969268798828"
+            },
+            {
+                "id": 0,
+                "point": "117.0243506373866,32.55718224955191",
+                "speed": 4.47,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "37",
+                "isFence": "Y",
+                "runMileage": "129.0299835205078"
+            },
+            {
+                "id": 0,
+                "point": "117.02430189733869,32.55721208655846",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "39",
+                "isFence": "Y",
+                "runMileage": "134.6756591796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02424652796103,32.557239124945724",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "41",
+                "isFence": "Y",
+                "runMileage": "140.6729736328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02419557989323,32.5572547858481",
+                "speed": 4.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "42",
+                "isFence": "Y",
+                "runMileage": "145.75552368164062"
+            },
+            {
+                "id": 0,
+                "point": "117.02413852430008,32.557263845135736",
+                "speed": 4.83,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "44",
+                "isFence": "Y",
+                "runMileage": "151.1968994140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02407982500212,32.55726594482828",
+                "speed": 5.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "46",
+                "isFence": "Y",
+                "runMileage": "156.70321655273438"
+            },
+            {
+                "id": 0,
+                "point": "117.02402172345369,32.55726081948814",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "47",
+                "isFence": "Y",
+                "runMileage": "162.1782989501953"
+            },
+            {
+                "id": 0,
+                "point": "117.02396487724742,32.557247538147564",
+                "speed": 5.07,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "49",
+                "isFence": "Y",
+                "runMileage": "167.70687866210938"
+            },
+            {
+                "id": 0,
+                "point": "117.0239098026699,32.55722748970879",
+                "speed": 5.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "50",
+                "isFence": "Y",
+                "runMileage": "173.32936096191406"
+            },
+            {
+                "id": 0,
+                "point": "117.02385971479691,32.55720030952536",
+                "speed": 5.26,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "51",
+                "isFence": "Y",
+                "runMileage": "178.9124298095703"
+            },
+            {
+                "id": 0,
+                "point": "117.02381705898243,32.55716956423835",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "53",
+                "isFence": "Y",
+                "runMileage": "184.17262268066406"
+            },
+            {
+                "id": 0,
+                "point": "117.02377835278875,32.557132793054315",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "55",
+                "isFence": "Y",
+                "runMileage": "189.63865661621094"
+            },
+            {
+                "id": 0,
+                "point": "117.02374641582084,32.55709252479632",
+                "speed": 4.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "56",
+                "isFence": "Y",
+                "runMileage": "195.0245819091797"
+            },
+            {
+                "id": 0,
+                "point": "117.02372211830098,32.55705138449756",
+                "speed": 5.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "58",
+                "isFence": "Y",
+                "runMileage": "200.13462829589844"
+            },
+            {
+                "id": 0,
+                "point": "117.0237079662022,32.557004343886845",
+                "speed": 5.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "60",
+                "isFence": "Y",
+                "runMileage": "205.53085327148438"
+            },
+            {
+                "id": 0,
+                "point": "117.0237034709325,32.556951867142274",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "61",
+                "isFence": "Y",
+                "runMileage": "211.38119506835938"
+            },
+            {
+                "id": 0,
+                "point": "117.02370466464063,32.55690011018797",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "63",
+                "isFence": "Y",
+                "runMileage": "217.13739013671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370629184759,32.55684984351084",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "65",
+                "isFence": "Y",
+                "runMileage": "222.72886657714844"
+            },
+            {
+                "id": 0,
+                "point": "117.02370784472313,32.55679621182312",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "66",
+                "isFence": "Y",
+                "runMileage": "228.6942138671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370973221393,32.556745831813735",
+                "speed": 4.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "68",
+                "isFence": "Y",
+                "runMileage": "234.29901123046875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371237155418,32.55669918743816",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "70",
+                "isFence": "Y",
+                "runMileage": "239.4915313720703"
+            },
+            {
+                "id": 0,
+                "point": "117.0237147372133,32.556648720574806",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "71",
+                "isFence": "Y",
+                "runMileage": "245.10757446289062"
+            },
+            {
+                "id": 0,
+                "point": "117.02371318878704,32.55659981677523",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "73",
+                "isFence": "Y",
+                "runMileage": "250.54736328125"
+            },
+            {
+                "id": 0,
+                "point": "117.0237106731784,32.55654771748085",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "75",
+                "isFence": "Y",
+                "runMileage": "256.3453369140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02370804176894,32.556493469120724",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "76",
+                "isFence": "Y",
+                "runMileage": "262.38250732421875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370796806082,32.556440431954506",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "78",
+                "isFence": "Y",
+                "runMileage": "268.27996826171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370909362288,32.55638643916114",
+                "speed": 4.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "80",
+                "isFence": "Y",
+                "runMileage": "274.28460693359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371149758342,32.556333116374276",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "81",
+                "isFence": "Y",
+                "runMileage": "280.2181091308594"
+            },
+            {
+                "id": 0,
+                "point": "117.02371502826614,32.55628418994665",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "83",
+                "isFence": "Y",
+                "runMileage": "285.6685485839844"
+            },
+            {
+                "id": 0,
+                "point": "117.02371796334795,32.55623473496989",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "84",
+                "isFence": "Y",
+                "runMileage": "291.174560546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02372067962638,32.55618320430801",
+                "speed": 5.07,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "86",
+                "isFence": "Y",
+                "runMileage": "296.91015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372649683328,32.55613415648981",
+                "speed": 4.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "88",
+                "isFence": "Y",
+                "runMileage": "302.3912048339844"
+            },
+            {
+                "id": 0,
+                "point": "117.02374282285052,32.55608416861443",
+                "speed": 4.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "89",
+                "isFence": "Y",
+                "runMileage": "308.1563720703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02376850997705,32.556037210518056",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "91",
+                "isFence": "Y",
+                "runMileage": "313.9061584472656"
+            },
+            {
+                "id": 0,
+                "point": "117.0237990769725,32.55599745563328",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "93",
+                "isFence": "Y",
+                "runMileage": "319.173828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02384114734069,32.555957258099326",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "94",
+                "isFence": "Y",
+                "runMileage": "325.1341552734375"
+            },
+            {
+                "id": 0,
+                "point": "117.02388862361201,32.55592367024557",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "96",
+                "isFence": "Y",
+                "runMileage": "330.94342041015625"
+            },
+            {
+                "id": 0,
+                "point": "117.0239400404614,32.555895424135244",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "98",
+                "isFence": "Y",
+                "runMileage": "336.6955261230469"
+            },
+            {
+                "id": 0,
+                "point": "117.02399262988459,32.5558730138905",
+                "speed": 5.01,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "99",
+                "isFence": "Y",
+                "runMileage": "342.2184753417969"
+            },
+            {
+                "id": 0,
+                "point": "117.02404149184322,32.555856812266654",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "101",
+                "isFence": "Y",
+                "runMileage": "347.1395568847656"
+            },
+            {
+                "id": 0,
+                "point": "117.0241014557405,32.55584797642357",
+                "speed": 5.3,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "103",
+                "isFence": "Y",
+                "runMileage": "352.8447570800781"
+            },
+            {
+                "id": 0,
+                "point": "117.02416061930855,32.55585053668621",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "104",
+                "isFence": "Y",
+                "runMileage": "358.39703369140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02421711723991,32.55586041367406",
+                "speed": 5.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "106",
+                "isFence": "Y",
+                "runMileage": "363.80487060546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02427629804416,32.55587671797188",
+                "speed": 5.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "108",
+                "isFence": "Y",
+                "runMileage": "369.6402282714844"
+            },
+            {
+                "id": 0,
+                "point": "117.024328269366,32.55589624056432",
+                "speed": 5.3,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "109",
+                "isFence": "Y",
+                "runMileage": "374.97296142578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02437178737271,32.555919548849154",
+                "speed": 5.29,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "111",
+                "isFence": "Y",
+                "runMileage": "379.8053894042969"
+            },
+            {
+                "id": 0,
+                "point": "117.02442070720919,32.55595333514908",
+                "speed": 5.09,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "112",
+                "isFence": "Y",
+                "runMileage": "385.7328796386719"
+            },
+            {
+                "id": 0,
+                "point": "117.02444972616571,32.555984960145764",
+                "speed": 5.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "113",
+                "isFence": "Y",
+                "runMileage": "390.1784362792969"
+            },
+            {
+                "id": 0,
+                "point": "117.02448309212011,32.55603281189903",
+                "speed": 4.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "115",
+                "isFence": "Y",
+                "runMileage": "396.3501892089844"
+            },
+            {
+                "id": 0,
+                "point": "117.02450305560824,32.556083049699396",
+                "speed": 4.83,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "117",
+                "isFence": "Y",
+                "runMileage": "402.24139404296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02451409894472,32.556133683997004",
+                "speed": 5.26,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "118",
+                "isFence": "Y",
+                "runMileage": "407.96600341796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02451698446536,32.55618503659305",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "120",
+                "isFence": "Y",
+                "runMileage": "413.68255615234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02451358862187,32.55623165917261",
+                "speed": 5.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "122",
+                "isFence": "Y",
+                "runMileage": "418.87652587890625"
+            },
+            {
+                "id": 0,
+                "point": "117.02451152277979,32.556280420045624",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "123",
+                "isFence": "Y",
+                "runMileage": "424.30194091796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02451243422998,32.55633086301894",
+                "speed": 4.83,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "125",
+                "isFence": "Y",
+                "runMileage": "429.9115905761719"
+            },
+            {
+                "id": 0,
+                "point": "117.02451082519413,32.55637498847405",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "127",
+                "isFence": "Y",
+                "runMileage": "434.8204345703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02450610212512,32.55641706664706",
+                "speed": 5.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "128",
+                "isFence": "Y",
+                "runMileage": "439.52020263671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02450383870415,32.55647754982974",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "130",
+                "isFence": "Y",
+                "runMileage": "446.24896240234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02450373364583,32.556524594352496",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "131",
+                "isFence": "Y",
+                "runMileage": "451.4800720214844"
+            },
+            {
+                "id": 0,
+                "point": "117.02450250214302,32.55656985137435",
+                "speed": 4.7,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "133",
+                "isFence": "Y",
+                "runMileage": "456.51373291015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02450232580436,32.556620442319506",
+                "speed": 4.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "135",
+                "isFence": "Y",
+                "runMileage": "462.13922119140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02450295779353,32.55666375031773",
+                "speed": 5.34,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "136",
+                "isFence": "Y",
+                "runMileage": "466.9552307128906"
+            },
+            {
+                "id": 0,
+                "point": "117.02450269665025,32.55670946289405",
+                "speed": 5.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "138",
+                "isFence": "Y",
+                "runMileage": "472.0382995605469"
+            },
+            {
+                "id": 0,
+                "point": "117.02450169863084,32.55676365301371",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "140",
+                "isFence": "Y",
+                "runMileage": "478.064697265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02450201404496,32.55680718423556",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "141",
+                "isFence": "Y",
+                "runMileage": "482.9052429199219"
+            },
+            {
+                "id": 0,
+                "point": "117.02450404523604,32.556857378602864",
+                "speed": 5.07,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "143",
+                "isFence": "Y",
+                "runMileage": "488.4898376464844"
+            },
+            {
+                "id": 0,
+                "point": "117.02450443615996,32.55690224059204",
+                "speed": 5.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "145",
+                "isFence": "Y",
+                "runMileage": "493.4783935546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02450126486137,32.55694903013651",
+                "speed": 5.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "146",
+                "isFence": "Y",
+                "runMileage": "498.68963623046875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449132000507,32.55699733427448",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "148",
+                "isFence": "Y",
+                "runMileage": "504.1410827636719"
+            },
+            {
+                "id": 0,
+                "point": "117.02447208501894,32.55704172771397",
+                "speed": 5.26,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "150",
+                "isFence": "Y",
+                "runMileage": "509.3962707519531"
+            },
+            {
+                "id": 0,
+                "point": "117.02444694194338,32.55708417691461",
+                "speed": 5.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "151",
+                "isFence": "Y",
+                "runMileage": "514.6719360351562"
+            },
+            {
+                "id": 0,
+                "point": "117.0244173671553,32.557122802941954",
+                "speed": 5.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "153",
+                "isFence": "Y",
+                "runMileage": "519.78369140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02438045987708,32.55715803853192",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "155",
+                "isFence": "Y",
+                "runMileage": "525.0101318359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02433984236426,32.55718737886508",
+                "speed": 6.1,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "156",
+                "isFence": "Y",
+                "runMileage": "530.0236206054688"
+            },
+            {
+                "id": 0,
+                "point": "117.02429312569781,32.55721201177769",
+                "speed": 5.49,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "158",
+                "isFence": "Y",
+                "runMileage": "535.1881713867188"
+            },
+            {
+                "id": 0,
+                "point": "117.02424389826172,32.55722794537154",
+                "speed": 5.61,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "160",
+                "isFence": "Y",
+                "runMileage": "540.1303100585938"
+            },
+            {
+                "id": 0,
+                "point": "117.02419793441985,32.55724025426302",
+                "speed": 5.65,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "161",
+                "isFence": "Y",
+                "runMileage": "544.6502685546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02415133786175,32.55724641927586",
+                "speed": 6.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "163",
+                "isFence": "Y",
+                "runMileage": "549.07080078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02409716753624,32.55725021600705",
+                "speed": 5.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "164",
+                "isFence": "Y",
+                "runMileage": "554.1652221679688"
+            },
+            {
+                "id": 0,
+                "point": "117.02404308284133,32.55724743520988",
+                "speed": 5.29,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "166",
+                "isFence": "Y",
+                "runMileage": "559.2435302734375"
+            },
+            {
+                "id": 0,
+                "point": "117.02398183158923,32.557235049382406",
+                "speed": 4.46,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "168",
+                "isFence": "Y",
+                "runMileage": "565.14697265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02392263165429,32.557216420612406",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "169",
+                "isFence": "Y",
+                "runMileage": "571.0693359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02387066928856,32.55719312855557",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "171",
+                "isFence": "Y",
+                "runMileage": "576.585205078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02382170807836,32.557163186944344",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "173",
+                "isFence": "Y",
+                "runMileage": "582.2545166015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02377781016278,32.55713144368533",
+                "speed": 4.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "174",
+                "isFence": "Y",
+                "runMileage": "587.67529296875"
+            },
+            {
+                "id": 0,
+                "point": "117.0237400821431,32.557091579655726",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "175",
+                "isFence": "Y",
+                "runMileage": "593.3455200195312"
+            },
+            {
+                "id": 0,
+                "point": "117.02371856805291,32.55704141377015",
+                "speed": 5.01,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "177",
+                "isFence": "Y",
+                "runMileage": "599.2769165039062"
+            },
+            {
+                "id": 0,
+                "point": "117.02370752528152,32.556994197909425",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "178",
+                "isFence": "Y",
+                "runMileage": "604.6281127929688"
+            },
+            {
+                "id": 0,
+                "point": "117.02370328675,32.55694306108397",
+                "speed": 4.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "180",
+                "isFence": "Y",
+                "runMileage": "610.328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02370583791816,32.55689577030805",
+                "speed": 5.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "182",
+                "isFence": "Y",
+                "runMileage": "615.592041015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02370707263454,32.55684821375284",
+                "speed": 5.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "183",
+                "isFence": "Y",
+                "runMileage": "620.88134765625"
+            },
+            {
+                "id": 0,
+                "point": "117.0237086205719,32.55680063842969",
+                "speed": 5.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "185",
+                "isFence": "Y",
+                "runMileage": "626.1734619140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02371148191456,32.556750890441506",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "187",
+                "isFence": "Y",
+                "runMileage": "631.711669921875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371259610092,32.55670154860401",
+                "speed": 5.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "188",
+                "isFence": "Y",
+                "runMileage": "637.19921875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371431121917,32.55665387516753",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "190",
+                "isFence": "Y",
+                "runMileage": "642.502685546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371633768817,32.55660160498515",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "192",
+                "isFence": "Y",
+                "runMileage": "648.3179931640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02371663352969,32.556552551778374",
+                "speed": 5.09,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "193",
+                "isFence": "Y",
+                "runMileage": "653.7725219726562"
+            },
+            {
+                "id": 0,
+                "point": "117.02371745242365,32.55650285932827",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "195",
+                "isFence": "Y",
+                "runMileage": "659.298583984375"
+            },
+            {
+                "id": 0,
+                "point": "117.0237177779933,32.55645250080205",
+                "speed": 5.09,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "197",
+                "isFence": "Y",
+                "runMileage": "664.8982543945312"
+            },
+            {
+                "id": 0,
+                "point": "117.02371957814022,32.55640391500439",
+                "speed": 5.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "198",
+                "isFence": "Y",
+                "runMileage": "670.3034057617188"
+            },
+            {
+                "id": 0,
+                "point": "117.02372144857517,32.55635540318218",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "200",
+                "isFence": "Y",
+                "runMileage": "675.7005004882812"
+            },
+            {
+                "id": 0,
+                "point": "117.02372193921605,32.55630737598152",
+                "speed": 4.64,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "202",
+                "isFence": "Y",
+                "runMileage": "681.0410766601562"
+            },
+            {
+                "id": 0,
+                "point": "117.02372276901723,32.556257976222426",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "203",
+                "isFence": "Y",
+                "runMileage": "686.5346069335938"
+            },
+            {
+                "id": 0,
+                "point": "117.02372221086574,32.556209692507",
+                "speed": 5.34,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "205",
+                "isFence": "Y",
+                "runMileage": "691.9037475585938"
+            },
+            {
+                "id": 0,
+                "point": "117.0237225332008,32.556160788012825",
+                "speed": 5.09,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "207",
+                "isFence": "Y",
+                "runMileage": "697.3417358398438"
+            },
+            {
+                "id": 0,
+                "point": "117.0237271294587,32.55611734216686",
+                "speed": 5.39,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "208",
+                "isFence": "Y",
+                "runMileage": "702.1918334960938"
+            },
+            {
+                "id": 0,
+                "point": "117.02373904606559,32.5560734298647",
+                "speed": 5.11,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "210",
+                "isFence": "Y",
+                "runMileage": "707.2007446289062"
+            },
+            {
+                "id": 0,
+                "point": "117.0237583674067,32.556035602532056",
+                "speed": 5.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "211",
+                "isFence": "Y",
+                "runMileage": "711.7802124023438"
+            },
+            {
+                "id": 0,
+                "point": "117.02378630565623,32.555995737227015",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "213",
+                "isFence": "Y",
+                "runMileage": "716.9286499023438"
+            },
+            {
+                "id": 0,
+                "point": "117.02382095531343,32.55595922132987",
+                "speed": 4.61,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "215",
+                "isFence": "Y",
+                "runMileage": "722.1279296875"
+            },
+            {
+                "id": 0,
+                "point": "117.0238522820731,32.55593019804272",
+                "speed": 5.34,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "216",
+                "isFence": "Y",
+                "runMileage": "726.4909057617188"
+            },
+            {
+                "id": 0,
+                "point": "117.02390100921815,32.55589970382003",
+                "speed": 5.16,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "218",
+                "isFence": "Y",
+                "runMileage": "732.1788940429688"
+            },
+            {
+                "id": 0,
+                "point": "117.02395702727256,32.55587395513417",
+                "speed": 4.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "220",
+                "isFence": "Y",
+                "runMileage": "738.1589965820312"
+            },
+            {
+                "id": 0,
+                "point": "117.02401145752849,32.55585547200972",
+                "speed": 5.34,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "221",
+                "isFence": "Y",
+                "runMileage": "743.6588134765625"
+            },
+            {
+                "id": 0,
+                "point": "117.0240698519506,32.55584601596071",
+                "speed": 5.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "223",
+                "isFence": "Y",
+                "runMileage": "749.2317504882812"
+            },
+            {
+                "id": 0,
+                "point": "117.0241257127661,32.55584184226612",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "225",
+                "isFence": "Y",
+                "runMileage": "754.4876708984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02417735291193,32.55584379077255",
+                "speed": 5.49,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "226",
+                "isFence": "Y",
+                "runMileage": "759.3323364257812"
+            },
+            {
+                "id": 0,
+                "point": "117.02423448498982,32.55585355860717",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "228",
+                "isFence": "Y",
+                "runMileage": "764.7959594726562"
+            },
+            {
+                "id": 0,
+                "point": "117.02429271116361,32.55587127748641",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "230",
+                "isFence": "Y",
+                "runMileage": "770.5978393554688"
+            },
+            {
+                "id": 0,
+                "point": "117.02434667596961,32.55589664586618",
+                "speed": 4.7,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "231",
+                "isFence": "Y",
+                "runMileage": "776.3890380859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02439266052826,32.555928723655725",
+                "speed": 4.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "233",
+                "isFence": "Y",
+                "runMileage": "781.9833984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02443164388781,32.55596583125585",
+                "speed": 4.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "235",
+                "isFence": "Y",
+                "runMileage": "787.4946899414062"
+            },
+            {
+                "id": 0,
+                "point": "117.02446550924199,32.55601117503859",
+                "speed": 4.59,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "235",
+                "isFence": "Y",
+                "runMileage": "793.4525146484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02448404901695,32.556049449335006",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "237",
+                "isFence": "Y",
+                "runMileage": "798.0494384765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449464832817,32.55609248359725",
+                "speed": 5.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "239",
+                "isFence": "Y",
+                "runMileage": "802.9366455078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449890865313,32.556144154090276",
+                "speed": 4.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "240",
+                "isFence": "Y",
+                "runMileage": "808.6959838867188"
+            },
+            {
+                "id": 0,
+                "point": "117.02449884361134,32.55619441529082",
+                "speed": 4.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "242",
+                "isFence": "Y",
+                "runMileage": "814.2847900390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449853553166,32.5562437076572",
+                "speed": 4.68,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "244",
+                "isFence": "Y",
+                "runMileage": "819.7659301757812"
+            },
+            {
+                "id": 0,
+                "point": "117.02449745677814,32.556279990602874",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "245",
+                "isFence": "Y",
+                "runMileage": "823.8016967773438"
+            },
+            {
+                "id": 0,
+                "point": "117.0244969616787,32.5563188399063",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "247",
+                "isFence": "Y",
+                "runMileage": "828.1217651367188"
+            },
+            {
+                "id": 0,
+                "point": "117.02449740805463,32.556380577588016",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "249",
+                "isFence": "Y",
+                "runMileage": "834.98681640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449778764264,32.556421497066125",
+                "speed": 5.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "250",
+                "isFence": "Y",
+                "runMileage": "839.5369873046875"
+            },
+            {
+                "id": 0,
+                "point": "117.0244978208891,32.55646169792723",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "252",
+                "isFence": "Y",
+                "runMileage": "844.0071411132812"
+            },
+            {
+                "id": 0,
+                "point": "117.02450017231247,32.55652822380375",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "254",
+                "isFence": "Y",
+                "runMileage": "851.4077758789062"
+            },
+            {
+                "id": 0,
+                "point": "117.02450348972192,32.556578477837455",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "255",
+                "isFence": "Y",
+                "runMileage": "857.00439453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02450831939815,32.556635209584705",
+                "speed": 5.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "257",
+                "isFence": "Y",
+                "runMileage": "863.3289184570312"
+            },
+            {
+                "id": 0,
+                "point": "117.02450792778801,32.55669449727586",
+                "speed": 4.35,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "258",
+                "isFence": "Y",
+                "runMileage": "869.9215087890625"
+            },
+            {
+                "id": 0,
+                "point": "117.02450573029239,32.5567402588461",
+                "speed": 5.26,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "260",
+                "isFence": "Y",
+                "runMileage": "875.01416015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02450595655355,32.55679260418364",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "262",
+                "isFence": "Y",
+                "runMileage": "880.834716796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02450544705333,32.556839208750475",
+                "speed": 5.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "263",
+                "isFence": "Y",
+                "runMileage": "886.0171508789062"
+            },
+            {
+                "id": 0,
+                "point": "117.02450395717295,32.55688891067504",
+                "speed": 5.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "265",
+                "isFence": "Y",
+                "runMileage": "891.5455322265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02450273750982,32.55693276039795",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "267",
+                "isFence": "Y",
+                "runMileage": "896.4227294921875"
+            },
+            {
+                "id": 0,
+                "point": "117.0244963955154,32.556979893982636",
+                "speed": 5.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "268",
+                "isFence": "Y",
+                "runMileage": "901.6973266601562"
+            },
+            {
+                "id": 0,
+                "point": "117.0244815752475,32.557026022768945",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "270",
+                "isFence": "Y",
+                "runMileage": "907.0113525390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02445675152943,32.557071764088306",
+                "speed": 5.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "272",
+                "isFence": "Y",
+                "runMileage": "912.6043701171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02442564741361,32.557115251714",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "273",
+                "isFence": "Y",
+                "runMileage": "918.2506713867188"
+            },
+            {
+                "id": 0,
+                "point": "117.02438744676273,32.55715350866536",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "275",
+                "isFence": "Y",
+                "runMileage": "923.8107299804688"
+            },
+            {
+                "id": 0,
+                "point": "117.0243399884849,32.55718764023456",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "277",
+                "isFence": "Y",
+                "runMileage": "929.65771484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02429055653033,32.55721517714671",
+                "speed": 5.34,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "278",
+                "isFence": "Y",
+                "runMileage": "935.2109985351562"
+            },
+            {
+                "id": 0,
+                "point": "117.02423631396458,32.55723580825714",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "280",
+                "isFence": "Y",
+                "runMileage": "940.788330078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02417896959713,32.5572482267666",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "282",
+                "isFence": "Y",
+                "runMileage": "946.3372802734375"
+            },
+            {
+                "id": 0,
+                "point": "117.02412201041496,32.55725388670485",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "283",
+                "isFence": "Y",
+                "runMileage": "951.7125244140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02406175773365,32.55725330606623",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "285",
+                "isFence": "Y",
+                "runMileage": "957.35986328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02400219569255,32.55724502860897",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "287",
+                "isFence": "Y",
+                "runMileage": "963.0174560546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02394480814615,32.5572299385411",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "288",
+                "isFence": "Y",
+                "runMileage": "968.6515502929688"
+            },
+            {
+                "id": 0,
+                "point": "117.0238904397334,32.557209162922874",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "290",
+                "isFence": "Y",
+                "runMileage": "974.2462158203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02384036793045,32.55717990679077",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "291",
+                "isFence": "Y",
+                "runMileage": "979.956298828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02379669113,32.55714421960243",
+                "speed": 4.68,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "292",
+                "isFence": "Y",
+                "runMileage": "985.657470703125"
+            },
+            {
+                "id": 0,
+                "point": "117.0237569512017,32.55709948613476",
+                "speed": 4.7,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "294",
+                "isFence": "Y",
+                "runMileage": "991.8714599609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02373035672335,32.557052781290786",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "296",
+                "isFence": "Y",
+                "runMileage": "997.6319580078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371149043701,32.55700044670119",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "297",
+                "isFence": "Y",
+                "runMileage": "1003.7139892578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02370350052855,32.5569505947516",
+                "speed": 4.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "299",
+                "isFence": "Y",
+                "runMileage": "1009.3076171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370188600413,32.55689782498303",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "301",
+                "isFence": "Y",
+                "runMileage": "1015.1773071289062"
+            },
+            {
+                "id": 0,
+                "point": "117.02370478292946,32.55684362371437",
+                "speed": 4.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "302",
+                "isFence": "Y",
+                "runMileage": "1021.2103271484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02370812202211,32.556792093741",
+                "speed": 4.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "304",
+                "isFence": "Y",
+                "runMileage": "1026.94873046875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370880937195,32.55674388873184",
+                "speed": 4.83,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "305",
+                "isFence": "Y",
+                "runMileage": "1032.309326171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371077209509,32.55669005648388",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "307",
+                "isFence": "Y",
+                "runMileage": "1038.2979736328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371296706968,32.556644029632345",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "309",
+                "isFence": "Y",
+                "runMileage": "1043.4200439453125"
+            },
+            {
+                "id": 0,
+                "point": "117.023715453218,32.55659635507578",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "310",
+                "isFence": "Y",
+                "runMileage": "1048.726318359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371813665295,32.5565440606057",
+                "speed": 4.35,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "312",
+                "isFence": "Y",
+                "runMileage": "1054.546630859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02372037091156,32.556497540009936",
+                "speed": 4.63,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "314",
+                "isFence": "Y",
+                "runMileage": "1059.7237548828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02372146091865,32.55644460161172",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "315",
+                "isFence": "Y",
+                "runMileage": "1065.611083984375"
+            },
+            {
+                "id": 0,
+                "point": "117.0237231645043,32.556393305002075",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "317",
+                "isFence": "Y",
+                "runMileage": "1071.3172607421875"
+            },
+            {
+                "id": 0,
+                "point": "117.02372606722471,32.556342166831364",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "319",
+                "isFence": "Y",
+                "runMileage": "1077.010009765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372743900244,32.55628981966699",
+                "speed": 4.61,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "320",
+                "isFence": "Y",
+                "runMileage": "1082.8321533203125"
+            },
+            {
+                "id": 0,
+                "point": "117.0237282546178,32.55623555640606",
+                "speed": 4.63,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "322",
+                "isFence": "Y",
+                "runMileage": "1088.866455078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02373087183568,32.55618768149118",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "324",
+                "isFence": "Y",
+                "runMileage": "1094.195556640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02373660441913,32.5561383415587",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "325",
+                "isFence": "Y",
+                "runMileage": "1099.7081298828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02374968466206,32.55608929870359",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "327",
+                "isFence": "Y",
+                "runMileage": "1105.2974853515625"
+            },
+            {
+                "id": 0,
+                "point": "117.02377148948278,32.55604687306022",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "329",
+                "isFence": "Y",
+                "runMileage": "1110.4385986328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02380302669282,32.55600417732633",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "330",
+                "isFence": "Y",
+                "runMileage": "1116.031005859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02384286153617,32.555962785342395",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "332",
+                "isFence": "Y",
+                "runMileage": "1121.9573974609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02388773558009,32.55592732703267",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "334",
+                "isFence": "Y",
+                "runMileage": "1127.7222900390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02394109335218,32.55589550818536",
+                "speed": 4.59,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "335",
+                "isFence": "Y",
+                "runMileage": "1133.84814453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02399530808478,32.5558738150106",
+                "speed": 5.07,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "337",
+                "isFence": "Y",
+                "runMileage": "1139.4727783203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02404910052294,32.55585867325279",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "338",
+                "isFence": "Y",
+                "runMileage": "1144.7880859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02411102073566,32.55584907688316",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "340",
+                "isFence": "Y",
+                "runMileage": "1150.688720703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02417480776953,32.55584879288527",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "342",
+                "isFence": "Y",
+                "runMileage": "1156.6671142578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02423321921698,32.55585616385773",
+                "speed": 4.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "343",
+                "isFence": "Y",
+                "runMileage": "1162.20263671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02428937970176,32.555870195989534",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "345",
+                "isFence": "Y",
+                "runMileage": "1167.6925048828125"
+            },
+            {
+                "id": 0,
+                "point": "117.024345484933,32.555891136657195",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "347",
+                "isFence": "Y",
+                "runMileage": "1173.443359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02438925322008,32.555914723582084",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "348",
+                "isFence": "Y",
+                "runMileage": "1178.312255859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02443254537391,32.55594910853914",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "350",
+                "isFence": "Y",
+                "runMileage": "1183.8873291015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02446421821026,32.55598718154629",
+                "speed": 4.63,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "352",
+                "isFence": "Y",
+                "runMileage": "1189.057861328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448548907971,32.556033181919844",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "352",
+                "isFence": "Y",
+                "runMileage": "1194.547607421875"
+            },
+            {
+                "id": 0,
+                "point": "117.0244996254507,32.556084551806606",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "354",
+                "isFence": "Y",
+                "runMileage": "1200.411376953125"
+            },
+            {
+                "id": 0,
+                "point": "117.02450454060848,32.556135366011965",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "356",
+                "isFence": "Y",
+                "runMileage": "1206.0804443359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02450417864772,32.55618002211616",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "357",
+                "isFence": "Y",
+                "runMileage": "1211.046142578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449764998504,32.55622348144345",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "359",
+                "isFence": "Y",
+                "runMileage": "1215.917236328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449323999657,32.55625609781758",
+                "speed": 6.19,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "361",
+                "isFence": "Y",
+                "runMileage": "1219.5675048828125"
+            },
+            {
+                "id": 0,
+                "point": "117.0244914348721,32.55631164784738",
+                "speed": 5.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "362",
+                "isFence": "Y",
+                "runMileage": "1225.7467041015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449239571268,32.55635051447082",
+                "speed": 4.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "364",
+                "isFence": "Y",
+                "runMileage": "1230.0694580078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449192224022,32.556402153938166",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "366",
+                "isFence": "Y",
+                "runMileage": "1235.8116455078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449155312047,32.55645251410786",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "367",
+                "isFence": "Y",
+                "runMileage": "1241.4114990234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449144253895,32.55649255905373",
+                "speed": 5.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "369",
+                "isFence": "Y",
+                "runMileage": "1245.8642578125"
+            },
+            {
+                "id": 0,
+                "point": "117.0244919121765,32.556556221545065",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "371",
+                "isFence": "Y",
+                "runMileage": "1252.943359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449211673138,32.556608493722514",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "372",
+                "isFence": "Y",
+                "runMileage": "1258.7557373046875"
+            },
+            {
+                "id": 0,
+                "point": "117.0244910332325,32.5566473462139",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "374",
+                "isFence": "Y",
+                "runMileage": "1263.0771484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449076444,32.55670002853784",
+                "speed": 5.07,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "376",
+                "isFence": "Y",
+                "runMileage": "1268.9351806640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449160320172,32.55675403236692",
+                "speed": 5.48,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "377",
+                "isFence": "Y",
+                "runMileage": "1274.940673828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449153308055,32.55680325258945",
+                "speed": 5.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "379",
+                "isFence": "Y",
+                "runMileage": "1280.4136962890625"
+            },
+            {
+                "id": 0,
+                "point": "117.0244925098044,32.55685455386408",
+                "speed": 5.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "381",
+                "isFence": "Y",
+                "runMileage": "1286.118896484375"
+            },
+            {
+                "id": 0,
+                "point": "117.0244924247856,32.55689663157866",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "382",
+                "isFence": "Y",
+                "runMileage": "1290.7977294921875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448846043433,32.55694574287026",
+                "speed": 4.83,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "384",
+                "isFence": "Y",
+                "runMileage": "1296.271240234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02447101882235,32.5570001208231",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "385",
+                "isFence": "Y",
+                "runMileage": "1302.534912109375"
+            },
+            {
+                "id": 0,
+                "point": "117.02444782464913,32.55704891157488",
+                "speed": 4.87,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "387",
+                "isFence": "Y",
+                "runMileage": "1308.3795166015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02441877238225,32.55709443974315",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "389",
+                "isFence": "Y",
+                "runMileage": "1314.1278076171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02438247477593,32.557136784101075",
+                "speed": 5.16,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "390",
+                "isFence": "Y",
+                "runMileage": "1319.9366455078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02434625483122,32.557170452924346",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "392",
+                "isFence": "Y",
+                "runMileage": "1324.990234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02429992670483,32.55720205831392",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "394",
+                "isFence": "Y",
+                "runMileage": "1330.576171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02424879624687,32.557221632492066",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "395",
+                "isFence": "Y",
+                "runMileage": "1335.83935546875"
+            },
+            {
+                "id": 0,
+                "point": "117.0241934233929,32.55723616039935",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "397",
+                "isFence": "Y",
+                "runMileage": "1341.2745361328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02413485580878,32.5572456201097",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "399",
+                "isFence": "Y",
+                "runMileage": "1346.8634033203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02407809119245,32.55724679504242",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "400",
+                "isFence": "Y",
+                "runMileage": "1352.18505859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02401532484558,32.55724191169856",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "402",
+                "isFence": "Y",
+                "runMileage": "1358.0926513671875"
+            },
+            {
+                "id": 0,
+                "point": "117.0239552544373,32.557229821171184",
+                "speed": 4.64,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "404",
+                "isFence": "Y",
+                "runMileage": "1363.880859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02390060775504,32.557210373879585",
+                "speed": 4.5,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "405",
+                "isFence": "Y",
+                "runMileage": "1369.440185546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02385059260187,32.557182599934436",
+                "speed": 4.83,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "407",
+                "isFence": "Y",
+                "runMileage": "1375.0535888671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02380829742367,32.557151093496095",
+                "speed": 4.65,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "409",
+                "isFence": "Y",
+                "runMileage": "1380.34375"
+            },
+            {
+                "id": 0,
+                "point": "117.02376934198772,32.5571136448458",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "410",
+                "isFence": "Y",
+                "runMileage": "1385.8817138671875"
+            },
+            {
+                "id": 0,
+                "point": "117.023737503358,32.55707089042953",
+                "speed": 5.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "412",
+                "isFence": "Y",
+                "runMileage": "1391.49462890625"
+            },
+            {
+                "id": 0,
+                "point": "117.02371677548221,32.557024016750276",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "414",
+                "isFence": "Y",
+                "runMileage": "1397.0570068359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02370719475249,32.55697738319092",
+                "speed": 5.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "414",
+                "isFence": "Y",
+                "runMileage": "1402.319580078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02370567323631,32.55692509921778",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "416",
+                "isFence": "Y",
+                "runMileage": "1408.135009765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02370791023344,32.55687597476049",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "418",
+                "isFence": "Y",
+                "runMileage": "1413.6014404296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370910873643,32.55682308844151",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "419",
+                "isFence": "Y",
+                "runMileage": "1419.483154296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371087748149,32.556771083010574",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "421",
+                "isFence": "Y",
+                "runMileage": "1425.268310546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371363447774,32.55672261033229",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "423",
+                "isFence": "Y",
+                "runMileage": "1430.6644287109375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371565738187,32.556675295179424",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "424",
+                "isFence": "Y",
+                "runMileage": "1435.9290771484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371687967141,32.55662511471507",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "426",
+                "isFence": "Y",
+                "runMileage": "1441.510009765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372005744162,32.55657719934529",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "428",
+                "isFence": "Y",
+                "runMileage": "1446.8463134765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372133834612,32.5565297501234",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "429",
+                "isFence": "Y",
+                "runMileage": "1452.123779296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371927093799,32.55647958361815",
+                "speed": 5.26,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "431",
+                "isFence": "Y",
+                "runMileage": "1457.7054443359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371939079286,32.55643213864707",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "432",
+                "isFence": "Y",
+                "runMileage": "1462.9810791015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372325588729,32.55638391892711",
+                "speed": 5.09,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "434",
+                "isFence": "Y",
+                "runMileage": "1468.3551025390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372452324092,32.556332463515204",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "436",
+                "isFence": "Y",
+                "runMileage": "1474.077880859375"
+            },
+            {
+                "id": 0,
+                "point": "117.0237262787145,32.55628766575419",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "437",
+                "isFence": "Y",
+                "runMileage": "1479.0618896484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02372734009296,32.55623850797548",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "439",
+                "isFence": "Y",
+                "runMileage": "1484.5289306640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372900609728,32.55618919108874",
+                "speed": 5.11,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "441",
+                "isFence": "Y",
+                "runMileage": "1490.014892578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02373386251422,32.55614361471127",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "442",
+                "isFence": "Y",
+                "runMileage": "1495.1031494140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02374549414272,32.55610107939489",
+                "speed": 5.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "444",
+                "isFence": "Y",
+                "runMileage": "1499.9569091796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02376633779421,32.55605771880849",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "446",
+                "isFence": "Y",
+                "runMileage": "1505.1590576171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02379365783425,32.55601413277864",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "447",
+                "isFence": "Y",
+                "runMileage": "1510.640380859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02382805879257,32.5559706973051",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "449",
+                "isFence": "Y",
+                "runMileage": "1516.447509765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02387544478819,32.55593263561244",
+                "speed": 4.68,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "451",
+                "isFence": "Y",
+                "runMileage": "1522.582275390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02392869425586,32.55590539400216",
+                "speed": 4.68,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "452",
+                "isFence": "Y",
+                "runMileage": "1528.4202880859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02398631645237,32.55588326976251",
+                "speed": 4.46,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "454",
+                "isFence": "Y",
+                "runMileage": "1534.354736328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02404925006844,32.55586616216708",
+                "speed": 4.56,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "456",
+                "isFence": "Y",
+                "runMileage": "1540.55224609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02410912141963,32.55585633107205",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "457",
+                "isFence": "Y",
+                "runMileage": "1546.26904296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02416836339049,32.55585369247528",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "459",
+                "isFence": "Y",
+                "runMileage": "1551.8291015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02422992978777,32.555859550905524",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "461",
+                "isFence": "Y",
+                "runMileage": "1557.6358642578125"
+            },
+            {
+                "id": 0,
+                "point": "117.0242878980196,32.55587304481199",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "462",
+                "isFence": "Y",
+                "runMileage": "1563.272216796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02433692141797,32.555890739613375",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "464",
+                "isFence": "Y",
+                "runMileage": "1568.2703857421875"
+            },
+            {
+                "id": 0,
+                "point": "117.02437993505644,32.55591454935978",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "465",
+                "isFence": "Y",
+                "runMileage": "1573.0933837890625"
+            },
+            {
+                "id": 0,
+                "point": "117.02441958964327,32.55594718891805",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "467",
+                "isFence": "Y",
+                "runMileage": "1578.2880859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02445461484137,32.55598603274763",
+                "speed": 5.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "469",
+                "isFence": "Y",
+                "runMileage": "1583.713134765625"
+            },
+            {
+                "id": 0,
+                "point": "117.0244820178173,32.556026706804424",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "470",
+                "isFence": "Y",
+                "runMileage": "1588.9141845703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449303721686,32.556062144235824",
+                "speed": 4.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "472",
+                "isFence": "Y",
+                "runMileage": "1592.98779296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449765891956,32.55609658143457",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "473",
+                "isFence": "Y",
+                "runMileage": "1596.8414306640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02450122229952,32.556142744278056",
+                "speed": 3.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "475",
+                "isFence": "Y",
+                "runMileage": "1601.9853515625"
+            },
+            {
+                "id": 0,
+                "point": "117.0245007713476,32.55618148391079",
+                "speed": 4.7,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "476",
+                "isFence": "Y",
+                "runMileage": "1606.293212890625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449990560798,32.556222238015614",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "478",
+                "isFence": "Y",
+                "runMileage": "1610.8255615234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449772128057,32.55627601515748",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "480",
+                "isFence": "Y",
+                "runMileage": "1616.808837890625"
+            },
+            {
+                "id": 0,
+                "point": "117.0244966519826,32.55632575990676",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "481",
+                "isFence": "Y",
+                "runMileage": "1622.341064453125"
+            },
+            {
+                "id": 0,
+                "point": "117.0244960422611,32.55639075827405",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "483",
+                "isFence": "Y",
+                "runMileage": "1629.5687255859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449497905135,32.556448769375685",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "484",
+                "isFence": "Y",
+                "runMileage": "1636.02001953125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449458740743,32.55649148775157",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "486",
+                "isFence": "Y",
+                "runMileage": "1640.770263671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449457617544,32.55652876659739",
+                "speed": 4.63,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "488",
+                "isFence": "Y",
+                "runMileage": "1644.91552734375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449389494852,32.55659150566372",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "489",
+                "isFence": "Y",
+                "runMileage": "1651.89208984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449352153381,32.55664159425304",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "491",
+                "isFence": "Y",
+                "runMileage": "1657.4617919921875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449384267692,32.556691255269826",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "493",
+                "isFence": "Y",
+                "runMileage": "1662.98388671875"
+            },
+            {
+                "id": 0,
+                "point": "117.024493653912,32.556734824765826",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "494",
+                "isFence": "Y",
+                "runMileage": "1667.82861328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449341360985,32.55678994256462",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "496",
+                "isFence": "Y",
+                "runMileage": "1673.95751953125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449258934453,32.556846720248096",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "498",
+                "isFence": "Y",
+                "runMileage": "1680.2713623046875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449045828293,32.55689227273609",
+                "speed": 6.33,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "499",
+                "isFence": "Y",
+                "runMileage": "1685.3404541015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02448493900488,32.5569345185178",
+                "speed": 5.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "501",
+                "isFence": "Y",
+                "runMileage": "1690.06640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02446995532289,32.556993037661584",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "503",
+                "isFence": "Y",
+                "runMileage": "1696.7232666015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02444385650794,32.55704678487754",
+                "speed": 5.18,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "504",
+                "isFence": "Y",
+                "runMileage": "1703.180908203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02441316446854,32.557091494272896",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "506",
+                "isFence": "Y",
+                "runMileage": "1708.924560546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02436985358555,32.557136959665115",
+                "speed": 4.7,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "508",
+                "isFence": "Y",
+                "runMileage": "1715.407958984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02432119378517,32.55717268850162",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "509",
+                "isFence": "Y",
+                "runMileage": "1721.4561767578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02426316609657,32.557202005758846",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "511",
+                "isFence": "Y",
+                "runMileage": "1727.7967529296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02420555970801,32.55722166633205",
+                "speed": 5.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "512",
+                "isFence": "Y",
+                "runMileage": "1733.6214599609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02415073137455,32.55723281909698",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "514",
+                "isFence": "Y",
+                "runMileage": "1738.9075927734375"
+            },
+            {
+                "id": 0,
+                "point": "117.02408814793996,32.557238239987385",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "516",
+                "isFence": "Y",
+                "runMileage": "1744.8038330078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02402492146942,32.55723516268845",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "517",
+                "isFence": "Y",
+                "runMileage": "1750.7393798828125"
+            },
+            {
+                "id": 0,
+                "point": "117.0239621402153,32.55722335803363",
+                "speed": 4.33,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "519",
+                "isFence": "Y",
+                "runMileage": "1756.7679443359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02390384325433,32.55720487053355",
+                "speed": 4.59,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "521",
+                "isFence": "Y",
+                "runMileage": "1762.6055908203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02384821201997,32.557176697436944",
+                "speed": 4.64,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "522",
+                "isFence": "Y",
+                "runMileage": "1768.688232421875"
+            },
+            {
+                "id": 0,
+                "point": "117.02380157679109,32.55714327729091",
+                "speed": 4.33,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "524",
+                "isFence": "Y",
+                "runMileage": "1774.4251708984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02376169339408,32.557104425475366",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "526",
+                "isFence": "Y",
+                "runMileage": "1780.137939453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02372775244861,32.55705651694342",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "527",
+                "isFence": "Y",
+                "runMileage": "1786.342529296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370790492553,32.55701133102154",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "529",
+                "isFence": "Y",
+                "runMileage": "1791.7001953125"
+            },
+            {
+                "id": 0,
+                "point": "117.02369686136976,32.55696556105309",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "531",
+                "isFence": "Y",
+                "runMileage": "1796.893798828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02369462444136,32.55690954687592",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "532",
+                "isFence": "Y",
+                "runMileage": "1803.1258544921875"
+            },
+            {
+                "id": 0,
+                "point": "117.02369930354763,32.55685918231584",
+                "speed": 5.11,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "534",
+                "isFence": "Y",
+                "runMileage": "1808.7432861328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02370340039788,32.55681265663404",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "536",
+                "isFence": "Y",
+                "runMileage": "1813.930908203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02370486342033,32.556757567498884",
+                "speed": 4.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "537",
+                "isFence": "Y",
+                "runMileage": "1820.05810546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370819684772,32.55670620205668",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "538",
+                "isFence": "Y",
+                "runMileage": "1825.7781982421875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371067335098,32.5566643568308",
+                "speed": 4.49,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "540",
+                "isFence": "Y",
+                "runMileage": "1830.43701171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371267834505,32.5566184548309",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "541",
+                "isFence": "Y",
+                "runMileage": "1835.5445556640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02371304673719,32.55655981521319",
+                "speed": 4.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "543",
+                "isFence": "Y",
+                "runMileage": "1842.0650634765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02371508260937,32.556505384223456",
+                "speed": 4.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "545",
+                "isFence": "Y",
+                "runMileage": "1848.1204833984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371731725152,32.556450081204794",
+                "speed": 4.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "546",
+                "isFence": "Y",
+                "runMileage": "1854.2734375"
+            },
+            {
+                "id": 0,
+                "point": "117.0237181874831,32.55639399170533",
+                "speed": 4.5,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "548",
+                "isFence": "Y",
+                "runMileage": "1860.5108642578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371943671452,32.55633954006229",
+                "speed": 4.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "550",
+                "isFence": "Y",
+                "runMileage": "1866.5667724609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02372151097286,32.55628726379478",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "551",
+                "isFence": "Y",
+                "runMileage": "1872.3829345703125"
+            },
+            {
+                "id": 0,
+                "point": "117.023722865217,32.556232474491324",
+                "speed": 4.24,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "553",
+                "isFence": "Y",
+                "runMileage": "1878.4765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372636255629,32.55618616277939",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "555",
+                "isFence": "Y",
+                "runMileage": "1883.6365966796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02373212320006,32.55613578048339",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "556",
+                "isFence": "Y",
+                "runMileage": "1889.2647705078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02374387473941,32.55607670665721",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "558",
+                "isFence": "Y",
+                "runMileage": "1895.9251708984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02377390708425,32.55602463733456",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "560",
+                "isFence": "Y",
+                "runMileage": "1902.3629150390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02381557297718,32.55598113354566",
+                "speed": 4.39,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "561",
+                "isFence": "Y",
+                "runMileage": "1908.579833984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02386558053942,32.555943706299466",
+                "speed": 4.1,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "563",
+                "isFence": "Y",
+                "runMileage": "1914.84765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02392260720052,32.555911473476165",
+                "speed": 4.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "564",
+                "isFence": "Y",
+                "runMileage": "1921.2828369140625"
+            },
+            {
+                "id": 0,
+                "point": "117.0239805893639,32.55588644991127",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "566",
+                "isFence": "Y",
+                "runMileage": "1927.3880615234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02404107610585,32.55586822304643",
+                "speed": 4.36,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "568",
+                "isFence": "Y",
+                "runMileage": "1933.408447265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02410034040149,32.555860437034404",
+                "speed": 4.61,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "569",
+                "isFence": "Y",
+                "runMileage": "1939.0299072265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02416425041243,32.555860971627055",
+                "speed": 4.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "571",
+                "isFence": "Y",
+                "runMileage": "1945.02001953125"
+            },
+            {
+                "id": 0,
+                "point": "117.0242311062566,32.555868236163164",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "573",
+                "isFence": "Y",
+                "runMileage": "1951.3377685546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02428676256328,32.555882351837816",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "574",
+                "isFence": "Y",
+                "runMileage": "1956.7850341796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02434338456374,32.55590442804392",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "576",
+                "isFence": "Y",
+                "runMileage": "1962.632080078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02438850887997,32.555932875277016",
+                "speed": 4.63,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "578",
+                "isFence": "Y",
+                "runMileage": "1967.913330078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02442867305658,32.555968905581565",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "579",
+                "isFence": "Y",
+                "runMileage": "1973.41064453125"
+            },
+            {
+                "id": 0,
+                "point": "117.0244623370734,32.556011478575655",
+                "speed": 4.94,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "581",
+                "isFence": "Y",
+                "runMileage": "1979.099609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02448686491194,32.55605739230911",
+                "speed": 4.63,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "583",
+                "isFence": "Y",
+                "runMileage": "1984.6986083984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02450112617993,32.55610785824014",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "584",
+                "isFence": "Y",
+                "runMileage": "1990.4671630859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02450546551674,32.556154425317885",
+                "speed": 4.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "586",
+                "isFence": "Y",
+                "runMileage": "1995.6611328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02450262760843,32.55619631863523",
+                "speed": 5.49,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "588",
+                "isFence": "Y",
+                "runMileage": "2000.3270263671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449769522856,32.556231098218284",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "589",
+                "isFence": "Y",
+                "runMileage": "2004.221923828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449381771281,32.556262776922594",
+                "speed": 5.11,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "591",
+                "isFence": "Y",
+                "runMileage": "2007.76318359375"
+            },
+            {
+                "id": 0,
+                "point": "117.024489425922,32.55632083891864",
+                "speed": 4.46,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "592",
+                "isFence": "Y",
+                "runMileage": "2014.2325439453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448703863146,32.556364343139364",
+                "speed": 5.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "594",
+                "isFence": "Y",
+                "runMileage": "2019.0751953125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448611217942,32.5564223668244",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "596",
+                "isFence": "Y",
+                "runMileage": "2025.5277099609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02448716971367,32.55647855525492",
+                "speed": 4.47,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "597",
+                "isFence": "Y",
+                "runMileage": "2031.7763671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448691191329,32.55652896434602",
+                "speed": 5.01,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "598",
+                "isFence": "Y",
+                "runMileage": "2037.3817138671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448920489232,32.55657643630636",
+                "speed": 4.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "600",
+                "isFence": "Y",
+                "runMileage": "2042.6646728515625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449079812583,32.5566167695482",
+                "speed": 5.39,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "602",
+                "isFence": "Y",
+                "runMileage": "2047.1519775390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449186518636,32.556672810092024",
+                "speed": 5.34,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "603",
+                "isFence": "Y",
+                "runMileage": "2053.38427734375"
+            },
+            {
+                "id": 0,
+                "point": "117.0244922238558,32.55672552033905",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "605",
+                "isFence": "Y",
+                "runMileage": "2059.24560546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449147673087,32.55677613235855",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "607",
+                "isFence": "Y",
+                "runMileage": "2064.873779296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449056969975,32.55682157307202",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "608",
+                "isFence": "Y",
+                "runMileage": "2069.92724609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449007161694,32.5568770318228",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "610",
+                "isFence": "Y",
+                "runMileage": "2076.09423828125"
+            },
+            {
+                "id": 0,
+                "point": "117.0244862812714,32.556925671770934",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "611",
+                "isFence": "Y",
+                "runMileage": "2081.514404296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02447674468935,32.55697447698455",
+                "speed": 4.75,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "613",
+                "isFence": "Y",
+                "runMileage": "2087.014404296875"
+            },
+            {
+                "id": 0,
+                "point": "117.0244579894689,32.557022262108916",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "615",
+                "isFence": "Y",
+                "runMileage": "2092.611083984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02442967000951,32.55706917759188",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "616",
+                "isFence": "Y",
+                "runMileage": "2098.464111328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02439411063446,32.55711358600777",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "618",
+                "isFence": "Y",
+                "runMileage": "2104.42138671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02435296222623,32.55715263865592",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "620",
+                "isFence": "Y",
+                "runMileage": "2110.22900390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02430541099886,32.55718508817302",
+                "speed": 4.33,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "621",
+                "isFence": "Y",
+                "runMileage": "2115.963134765625"
+            },
+            {
+                "id": 0,
+                "point": "117.0242632558048,32.55720388210068",
+                "speed": 4.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "623",
+                "isFence": "Y",
+                "runMileage": "2120.4326171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02420958623802,32.55722142373378",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "625",
+                "isFence": "Y",
+                "runMileage": "2125.82763671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02415467858438,32.55723238347775",
+                "speed": 4.83,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "626",
+                "isFence": "Y",
+                "runMileage": "2131.115966796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02408448737413,32.557236943047215",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "628",
+                "isFence": "Y",
+                "runMileage": "2137.7138671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02401872836636,32.55723200877954",
+                "speed": 4.65,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "630",
+                "isFence": "Y",
+                "runMileage": "2143.9013671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02395738802949,32.55722110449886",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "631",
+                "isFence": "Y",
+                "runMileage": "2149.776611328125"
+            },
+            {
+                "id": 0,
+                "point": "117.0239003094961,32.55720404822751",
+                "speed": 5.2,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "633",
+                "isFence": "Y",
+                "runMileage": "2155.452392578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02385425918905,32.55718469929064",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "635",
+                "isFence": "Y",
+                "runMileage": "2160.27490234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02380807856706,32.55715052637686",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "636",
+                "isFence": "Y",
+                "runMileage": "2166.034423828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02376847066976,32.55711040655692",
+                "speed": 4.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "638",
+                "isFence": "Y",
+                "runMileage": "2171.837890625"
+            },
+            {
+                "id": 0,
+                "point": "117.02374061972034,32.55706961006843",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "640",
+                "isFence": "Y",
+                "runMileage": "2177.071533203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02372205413138,32.55702593595567",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "641",
+                "isFence": "Y",
+                "runMileage": "2182.230224609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371433558984,32.556988598539654",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "643",
+                "isFence": "Y",
+                "runMileage": "2186.444580078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371358266741,32.55694300728266",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "644",
+                "isFence": "Y",
+                "runMileage": "2191.5146484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371634901455,32.556884859790664",
+                "speed": 4.61,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "646",
+                "isFence": "Y",
+                "runMileage": "2197.985595703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02372047621571,32.55682967514309",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "648",
+                "isFence": "Y",
+                "runMileage": "2204.134033203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02372225763136,32.55677606221894",
+                "speed": 4.83,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "649",
+                "isFence": "Y",
+                "runMileage": "2210.097900390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372164369504,32.55672408793435",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "651",
+                "isFence": "Y",
+                "runMileage": "2215.87744140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372359168051,32.556676722635004",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "653",
+                "isFence": "Y",
+                "runMileage": "2221.1474609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02372427016203,32.55662519810411",
+                "speed": 5.56,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "654",
+                "isFence": "Y",
+                "runMileage": "2226.877197265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372339383444,32.55658343472802",
+                "speed": 5.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "655",
+                "isFence": "Y",
+                "runMileage": "2231.521728515625"
+            },
+            {
+                "id": 0,
+                "point": "117.02372650432135,32.55653450482398",
+                "speed": 4.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "657",
+                "isFence": "Y",
+                "runMileage": "2236.97021484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02372573325583,32.55647974401699",
+                "speed": 5.3,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "658",
+                "isFence": "Y",
+                "runMileage": "2243.059814453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02372602367039,32.556432149173055",
+                "speed": 5.29,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "660",
+                "isFence": "Y",
+                "runMileage": "2248.352294921875"
+            },
+            {
+                "id": 0,
+                "point": "117.0237279983162,32.556385312340694",
+                "speed": 4.35,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "662",
+                "isFence": "Y",
+                "runMileage": "2253.563720703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02373170270143,32.5563399689541",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "663",
+                "isFence": "Y",
+                "runMileage": "2258.61767578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02373233397579,32.55628619599256",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "665",
+                "isFence": "Y",
+                "runMileage": "2264.59716796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02373169928691,32.556237200241966",
+                "speed": 5.49,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "667",
+                "isFence": "Y",
+                "runMileage": "2270.045654296875"
+            },
+            {
+                "id": 0,
+                "point": "117.0237334879375,32.55618708163955",
+                "speed": 4.59,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "668",
+                "isFence": "Y",
+                "runMileage": "2275.62109375"
+            },
+            {
+                "id": 0,
+                "point": "117.02374278779953,32.55613285410503",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "670",
+                "isFence": "Y",
+                "runMileage": "2281.713623046875"
+            },
+            {
+                "id": 0,
+                "point": "117.0237611173149,32.556085974439924",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "672",
+                "isFence": "Y",
+                "runMileage": "2287.2021484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02378962623611,32.556038732983914",
+                "speed": 4.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "673",
+                "isFence": "Y",
+                "runMileage": "2293.095703125"
+            },
+            {
+                "id": 0,
+                "point": "117.0238260756719,32.55599427394706",
+                "speed": 4.7,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "675",
+                "isFence": "Y",
+                "runMileage": "2299.104736328125"
+            },
+            {
+                "id": 0,
+                "point": "117.0238704157922,32.55595399251129",
+                "speed": 4.64,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "677",
+                "isFence": "Y",
+                "runMileage": "2305.214599609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02391740224147,32.55592211085695",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "678",
+                "isFence": "Y",
+                "runMileage": "2310.867919921875"
+            },
+            {
+                "id": 0,
+                "point": "117.02396849497075,32.55589738528996",
+                "speed": 5.48,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "680",
+                "isFence": "Y",
+                "runMileage": "2316.3896484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02402471095924,32.55587706172045",
+                "speed": 4.68,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "682",
+                "isFence": "Y",
+                "runMileage": "2322.12255859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02408773125595,32.555863718750906",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "683",
+                "isFence": "Y",
+                "runMileage": "2328.21240234375"
+            },
+            {
+                "id": 0,
+                "point": "117.0241468821803,32.555859455641865",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "685",
+                "isFence": "Y",
+                "runMileage": "2333.7763671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02420721398796,32.55586186478189",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "687",
+                "isFence": "Y",
+                "runMileage": "2339.437255859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02426538665223,32.5558699727093",
+                "speed": 5.11,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "688",
+                "isFence": "Y",
+                "runMileage": "2344.96337890625"
+            },
+            {
+                "id": 0,
+                "point": "117.0243188807539,32.55588488060511",
+                "speed": 4.61,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "690",
+                "isFence": "Y",
+                "runMileage": "2350.243896484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02436902005343,32.555910143644404",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "691",
+                "isFence": "Y",
+                "runMileage": "2355.71875"
+            },
+            {
+                "id": 0,
+                "point": "117.02440464557597,32.55594041616594",
+                "speed": 5.39,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "693",
+                "isFence": "Y",
+                "runMileage": "2360.4599609375"
+            },
+            {
+                "id": 0,
+                "point": "117.02443493960587,32.55597444951454",
+                "speed": 4.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "695",
+                "isFence": "Y",
+                "runMileage": "2365.19091796875"
+            },
+            {
+                "id": 0,
+                "point": "117.0244515232639,32.556006597357666",
+                "speed": 5.34,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "696",
+                "isFence": "Y",
+                "runMileage": "2369.0888671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02447166899115,32.55605485108022",
+                "speed": 5.01,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "698",
+                "isFence": "Y",
+                "runMileage": "2374.77685546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448110412448,32.55610432039362",
+                "speed": 4.59,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "700",
+                "isFence": "Y",
+                "runMileage": "2380.34814453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448370301042,32.55615498072654",
+                "speed": 4.56,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "701",
+                "isFence": "Y",
+                "runMileage": "2385.986572265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02448467916757,32.55620161740272",
+                "speed": 5.77,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "703",
+                "isFence": "Y",
+                "runMileage": "2391.173095703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448500718282,32.556250740183195",
+                "speed": 5.95,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "705",
+                "isFence": "Y",
+                "runMileage": "2396.635498046875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448371939404,32.5562868024365",
+                "speed": 4.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "706",
+                "isFence": "Y",
+                "runMileage": "2400.647216796875"
+            },
+            {
+                "id": 0,
+                "point": "117.024484592169,32.55633675680364",
+                "speed": 4.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "708",
+                "isFence": "Y",
+                "runMileage": "2406.202392578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448698640937,32.55639325491042",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "710",
+                "isFence": "Y",
+                "runMileage": "2412.48876953125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448607957186,32.5564422716209",
+                "speed": 4.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "711",
+                "isFence": "Y",
+                "runMileage": "2417.93994140625"
+            },
+            {
+                "id": 0,
+                "point": "117.02448616487973,32.55649438776611",
+                "speed": 4.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "713",
+                "isFence": "Y",
+                "runMileage": "2423.735107421875"
+            },
+            {
+                "id": 0,
+                "point": "117.0244859673079,32.55654328286266",
+                "speed": 4.43,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "714",
+                "isFence": "Y",
+                "runMileage": "2429.172119140625"
+            },
+            {
+                "id": 0,
+                "point": "117.0244854519555,32.55660169216794",
+                "speed": 4.21,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "715",
+                "isFence": "Y",
+                "runMileage": "2435.667236328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448537637041,32.5566551565349",
+                "speed": 4.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "717",
+                "isFence": "Y",
+                "runMileage": "2441.6123046875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448737051714,32.55673066931989",
+                "speed": 4.63,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "719",
+                "isFence": "Y",
+                "runMileage": "2450.010986328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448942273901,32.556791579095346",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "720",
+                "isFence": "Y",
+                "runMileage": "2456.78662109375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449088694655,32.55684772895104",
+                "speed": 4.63,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "722",
+                "isFence": "Y",
+                "runMileage": "2463.03173828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02448984273194,32.55691054387156",
+                "speed": 4.28,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "724",
+                "isFence": "Y",
+                "runMileage": "2470.01708984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02447644722923,32.55696908082336",
+                "speed": 4.36,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "725",
+                "isFence": "Y",
+                "runMileage": "2476.64599609375"
+            },
+            {
+                "id": 0,
+                "point": "117.0244546884704,32.557022853617596",
+                "speed": 4.28,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "727",
+                "isFence": "Y",
+                "runMileage": "2482.96337890625"
+            },
+            {
+                "id": 0,
+                "point": "117.02442067209441,32.55707838698389",
+                "speed": 4.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "729",
+                "isFence": "Y",
+                "runMileage": "2489.912841796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02437688870775,32.55712600313061",
+                "speed": 4.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "730",
+                "isFence": "Y",
+                "runMileage": "2496.611572265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02432592435501,32.5571642249747",
+                "speed": 4.33,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "732",
+                "isFence": "Y",
+                "runMileage": "2503.005126953125"
+            },
+            {
+                "id": 0,
+                "point": "117.0242658283478,32.55719766328843",
+                "speed": 4.31,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "734",
+                "isFence": "Y",
+                "runMileage": "2509.75390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02420830127772,32.55721829305849",
+                "speed": 4.56,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "735",
+                "isFence": "Y",
+                "runMileage": "2515.613037109375"
+            },
+            {
+                "id": 0,
+                "point": "117.02414606009667,32.55723085284982",
+                "speed": 4.92,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "737",
+                "isFence": "Y",
+                "runMileage": "2521.611083984375"
+            },
+            {
+                "id": 0,
+                "point": "117.02408073628673,32.5572346236573",
+                "speed": 4.29,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "738",
+                "isFence": "Y",
+                "runMileage": "2527.74755859375"
+            },
+            {
+                "id": 0,
+                "point": "117.02402197775501,32.55723049071953",
+                "speed": 5.01,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "740",
+                "isFence": "Y",
+                "runMileage": "2533.273681640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02395404487213,32.55721772555265",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "742",
+                "isFence": "Y",
+                "runMileage": "2539.796630859375"
+            },
+            {
+                "id": 0,
+                "point": "117.0238940364198,32.557196036717826",
+                "speed": 4.45,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "743",
+                "isFence": "Y",
+                "runMileage": "2545.916015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02383990545336,32.5571659397254",
+                "speed": 4.26,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "745",
+                "isFence": "Y",
+                "runMileage": "2551.99365234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02378934238065,32.55712930238226",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "747",
+                "isFence": "Y",
+                "runMileage": "2558.242919921875"
+            },
+            {
+                "id": 0,
+                "point": "117.023749071858,32.557086843481414",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "748",
+                "isFence": "Y",
+                "runMileage": "2564.287353515625"
+            },
+            {
+                "id": 0,
+                "point": "117.0237216522358,32.557038422981464",
+                "speed": 4.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "750",
+                "isFence": "Y",
+                "runMileage": "2570.25341796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02370757092798,32.55699156610885",
+                "speed": 4.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "752",
+                "isFence": "Y",
+                "runMileage": "2575.628173828125"
+            },
+            {
+                "id": 0,
+                "point": "117.0237041549201,32.556938744821466",
+                "speed": 4.52,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "753",
+                "isFence": "Y",
+                "runMileage": "2581.51025390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02370763570696,32.55689356267561",
+                "speed": 5.26,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "755",
+                "isFence": "Y",
+                "runMileage": "2586.544921875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371200710061,32.556844597396385",
+                "speed": 4.7,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "757",
+                "isFence": "Y",
+                "runMileage": "2592.005126953125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371460123457,32.55679275208831",
+                "speed": 4.61,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "758",
+                "isFence": "Y",
+                "runMileage": "2597.775146484375"
+            },
+            {
+                "id": 0,
+                "point": "117.02371649747887,32.55674936298634",
+                "speed": 4.68,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "760",
+                "isFence": "Y",
+                "runMileage": "2602.60302734375"
+            },
+            {
+                "id": 0,
+                "point": "117.0237187510371,32.55669508952633",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "762",
+                "isFence": "Y",
+                "runMileage": "2608.6416015625"
+            },
+            {
+                "id": 0,
+                "point": "117.0237222104266,32.5566391711528",
+                "speed": 4.59,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "763",
+                "isFence": "Y",
+                "runMileage": "2614.867919921875"
+            },
+            {
+                "id": 0,
+                "point": "117.0237248382547,32.55658881794054",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "765",
+                "isFence": "Y",
+                "runMileage": "2620.472412109375"
+            },
+            {
+                "id": 0,
+                "point": "117.02372620514525,32.5565420034208",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "767",
+                "isFence": "Y",
+                "runMileage": "2625.679443359375"
+            },
+            {
+                "id": 0,
+                "point": "117.02372828150484,32.556487959501524",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "768",
+                "isFence": "Y",
+                "runMileage": "2631.69189453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02372998749252,32.556438160468524",
+                "speed": 4.65,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "769",
+                "isFence": "Y",
+                "runMileage": "2637.231689453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02373129958971,32.556386355423044",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "771",
+                "isFence": "Y",
+                "runMileage": "2642.993408203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02373161042249,32.55633409114125",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "772",
+                "isFence": "Y",
+                "runMileage": "2648.804931640625"
+            },
+            {
+                "id": 0,
+                "point": "117.0237307878111,32.556285515163275",
+                "speed": 4.72,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "774",
+                "isFence": "Y",
+                "runMileage": "2654.206787109375"
+            },
+            {
+                "id": 0,
+                "point": "117.02373076101874,32.5562340449512",
+                "speed": 4.91,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "776",
+                "isFence": "Y",
+                "runMileage": "2659.929931640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02373101934364,32.55618662851125",
+                "speed": 5.39,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "777",
+                "isFence": "Y",
+                "runMileage": "2665.202392578125"
+            },
+            {
+                "id": 0,
+                "point": "117.02374014408366,32.55614049191649",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "779",
+                "isFence": "Y",
+                "runMileage": "2670.4033203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02375877690231,32.55609048794621",
+                "speed": 4.61,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "781",
+                "isFence": "Y",
+                "runMileage": "2676.231201171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02378534237222,32.55604227947938",
+                "speed": 4.97,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "782",
+                "isFence": "Y",
+                "runMileage": "2682.141845703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02381922543938,32.5559980879691",
+                "speed": 4.7,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "784",
+                "isFence": "Y",
+                "runMileage": "2687.992431640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02386124703621,32.55595548002965",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "785",
+                "isFence": "Y",
+                "runMileage": "2694.1533203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02390522302728,32.55592091857625",
+                "speed": 4.37,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "787",
+                "isFence": "Y",
+                "runMileage": "2699.78857421875"
+            },
+            {
+                "id": 0,
+                "point": "117.02395866336562,32.5558932776531",
+                "speed": 4.85,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "789",
+                "isFence": "Y",
+                "runMileage": "2705.6650390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02401571566634,32.55587356756649",
+                "speed": 4.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "790",
+                "isFence": "Y",
+                "runMileage": "2711.44384765625"
+            },
+            {
+                "id": 0,
+                "point": "117.02407159343625,32.55586047095198",
+                "speed": 4.96,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "792",
+                "isFence": "Y",
+                "runMileage": "2716.879638671875"
+            },
+            {
+                "id": 0,
+                "point": "117.02413543046421,32.555852414267115",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "794",
+                "isFence": "Y",
+                "runMileage": "2722.92919921875"
+            },
+            {
+                "id": 0,
+                "point": "117.02419428567477,32.55584959679629",
+                "speed": 5.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "795",
+                "isFence": "Y",
+                "runMileage": "2728.4541015625"
+            },
+            {
+                "id": 0,
+                "point": "117.02424868810728,32.55585491433965",
+                "speed": 4.31,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "797",
+                "isFence": "Y",
+                "runMileage": "2733.5869140625"
+            },
+            {
+                "id": 0,
+                "point": "117.0243026084009,32.55587457811421",
+                "speed": 4.14,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "799",
+                "isFence": "Y",
+                "runMileage": "2739.09326171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02434645786307,32.55589630733091",
+                "speed": 5.0,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "800",
+                "isFence": "Y",
+                "runMileage": "2743.860595703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02438388185595,32.55592208408235",
+                "speed": 4.35,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "802",
+                "isFence": "Y",
+                "runMileage": "2748.39013671875"
+            },
+            {
+                "id": 0,
+                "point": "117.0244207172395,32.55595845247441",
+                "speed": 5.09,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "804",
+                "isFence": "Y",
+                "runMileage": "2753.707275390625"
+            },
+            {
+                "id": 0,
+                "point": "117.024444245672,32.55599725808222",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "805",
+                "isFence": "Y",
+                "runMileage": "2758.552978515625"
+            },
+            {
+                "id": 0,
+                "point": "117.02446136780833,32.55603870589141",
+                "speed": 4.05,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "807",
+                "isFence": "Y",
+                "runMileage": "2763.43310546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448076882736,32.55610138758673",
+                "speed": 4.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "809",
+                "isFence": "Y",
+                "runMileage": "2770.63623046875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448539869108,32.556147756798936",
+                "speed": 4.33,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "810",
+                "isFence": "Y",
+                "runMileage": "2775.810546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448911192448,32.55620128987952",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "812",
+                "isFence": "Y",
+                "runMileage": "2781.7734375"
+            },
+            {
+                "id": 0,
+                "point": "117.02449171039727,32.556256572079526",
+                "speed": 4.29,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "814",
+                "isFence": "Y",
+                "runMileage": "2787.92529296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449182740668,32.556305832521474",
+                "speed": 4.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "815",
+                "isFence": "Y",
+                "runMileage": "2793.40283203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449257309684,32.55635377983714",
+                "speed": 4.49,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "817",
+                "isFence": "Y",
+                "runMileage": "2798.73486328125"
+            },
+            {
+                "id": 0,
+                "point": "117.0244945623816,32.5564237974",
+                "speed": 4.36,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "818",
+                "isFence": "Y",
+                "runMileage": "2806.522705078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449482130827,32.556485081681274",
+                "speed": 4.29,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "820",
+                "isFence": "Y",
+                "runMileage": "2813.337158203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02449324005953,32.55653271507941",
+                "speed": 4.67,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "822",
+                "isFence": "Y",
+                "runMileage": "2818.6357421875"
+            },
+            {
+                "id": 0,
+                "point": "117.02449207064441,32.55659695599328",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "823",
+                "isFence": "Y",
+                "runMileage": "2825.77978515625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449188765164,32.55667485281418",
+                "speed": 4.19,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "824",
+                "isFence": "Y",
+                "runMileage": "2834.441650390625"
+            },
+            {
+                "id": 0,
+                "point": "117.02449092691592,32.55673387464918",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "826",
+                "isFence": "Y",
+                "runMileage": "2841.005126953125"
+            },
+            {
+                "id": 0,
+                "point": "117.0244898630974,32.55678685557751",
+                "speed": 3.62,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "828",
+                "isFence": "Y",
+                "runMileage": "2846.897216796875"
+            },
+            {
+                "id": 0,
+                "point": "117.02448747141746,32.55686436941835",
+                "speed": 2.82,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "829",
+                "isFence": "Y",
+                "runMileage": "2855.519287109375"
+            },
+            {
+                "id": 0,
+                "point": "117.0244590389939,32.55701377343012",
+                "speed": 2.65,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "831",
+                "isFence": "Y",
+                "runMileage": "2872.3447265625"
+            },
+            {
+                "id": 0,
+                "point": "117.02442134689682,32.55708710495204",
+                "speed": 2.99,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "832",
+                "isFence": "Y",
+                "runMileage": "2881.231201171875"
+            },
+            {
+                "id": 0,
+                "point": "117.02436789201167,32.55715122864819",
+                "speed": 3.41,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "834",
+                "isFence": "Y",
+                "runMileage": "2889.945556640625"
+            },
+            {
+                "id": 0,
+                "point": "117.02430233280992,32.557202285297585",
+                "speed": 3.17,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "836",
+                "isFence": "Y",
+                "runMileage": "2898.311279296875"
+            },
+            {
+                "id": 0,
+                "point": "117.02423993709333,32.55722925730767",
+                "speed": 3.86,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "837",
+                "isFence": "Y",
+                "runMileage": "2904.88330078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02418050218294,32.557243551764415",
+                "speed": 3.31,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "839",
+                "isFence": "Y",
+                "runMileage": "2910.676025390625"
+            },
+            {
+                "id": 0,
+                "point": "117.0241029872643,32.557246757512395",
+                "speed": 3.53,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "841",
+                "isFence": "Y",
+                "runMileage": "2917.949462890625"
+            },
+            {
+                "id": 0,
+                "point": "117.02402248788586,32.557243199652675",
+                "speed": 3.32,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "842",
+                "isFence": "Y",
+                "runMileage": "2925.50439453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02395679755574,32.557229488661186",
+                "speed": 4.25,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "844",
+                "isFence": "Y",
+                "runMileage": "2931.846923828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02389627667812,32.5572071583662",
+                "speed": 4.5,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "846",
+                "isFence": "Y",
+                "runMileage": "2938.03857421875"
+            },
+            {
+                "id": 0,
+                "point": "117.02383747595744,32.5571704035441",
+                "speed": 4.21,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "847",
+                "isFence": "Y",
+                "runMileage": "2944.899658203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02379077502134,32.55713150503861",
+                "speed": 4.58,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "849",
+                "isFence": "Y",
+                "runMileage": "2951.05322265625"
+            },
+            {
+                "id": 0,
+                "point": "117.0237556302057,32.55709239156467",
+                "speed": 4.33,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "851",
+                "isFence": "Y",
+                "runMileage": "2956.509033203125"
+            },
+            {
+                "id": 0,
+                "point": "117.02372806713201,32.55704125116415",
+                "speed": 4.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "852",
+                "isFence": "Y",
+                "runMileage": "2962.7548828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371695589852,32.556987191754715",
+                "speed": 4.54,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "854",
+                "isFence": "Y",
+                "runMileage": "2968.85546875"
+            },
+            {
+                "id": 0,
+                "point": "117.02371361914449,32.55693138569216",
+                "speed": 4.22,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "856",
+                "isFence": "Y",
+                "runMileage": "2975.068603515625"
+            },
+            {
+                "id": 0,
+                "point": "117.02371483011282,32.556876805599636",
+                "speed": 4.89,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "857",
+                "isFence": "Y",
+                "runMileage": "2981.138671875"
+            },
+            {
+                "id": 0,
+                "point": "117.0237165307852,32.5568178543987",
+                "speed": 4.12,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "859",
+                "isFence": "Y",
+                "runMileage": "2987.69580078125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371645908921,32.556766664965565",
+                "speed": 4.21,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "861",
+                "isFence": "Y",
+                "runMileage": "2993.3876953125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371519938555,32.55671099812172",
+                "speed": 4.8,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "862",
+                "isFence": "Y",
+                "runMileage": "2999.57861328125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371598080043,32.556654541591435",
+                "speed": 5.03,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "864",
+                "isFence": "Y",
+                "runMileage": "3005.856689453125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371742450883,32.5566008252939",
+                "speed": 5.15,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "865",
+                "isFence": "Y",
+                "runMileage": "3011.831298828125"
+            },
+            {
+                "id": 0,
+                "point": "117.02371794264579,32.5565531259001",
+                "speed": 6.73,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "867",
+                "isFence": "Y",
+                "runMileage": "3017.135498046875"
+            },
+            {
+                "id": 0,
+                "point": "117.02372221752913,32.55652549037932",
+                "speed": 10.25,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "869",
+                "isFence": "Y",
+                "runMileage": "3020.234375"
+            },
+            {
+                "id": 0,
+                "point": "117.02374091250216,32.55650587069864",
+                "speed": 13.47,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "870",
+                "isFence": "Y",
+                "runMileage": "3023.032470703125"
+            },
+            {
+                "id": 0,
+                "point": "117.02376421196138,32.55648893350361",
+                "speed": 8.23,
+                "runStatus": 1,
+                "runRecordId": 0,
+                "runTime": "872",
+                "isFence": "Y",
+                "runMileage": "3025.916015625"
+            }
+        ],
+        "schoolId": 173,
+        "manageList": [
+            {
+                "point": "117.02451,32.557007",
+                "marked": "Y",
+                "index": 1
+            },
+            {
+                "point": "117.024548,32.556467",
+                "marked": "Y",
+                "index": 0
+            },
+            {
+                "point": "117.023751,32.555946",
+                "marked": "Y",
+                "index": 4
+            },
+            {
+                "point": "117.023721,32.556484",
+                "marked": "Y",
+                "index": 3
+            },
+            {
+                "point": "117.023737,32.556958",
+                "marked": "Y",
+                "index": 2
+            }
+        ]
+    }
+}
