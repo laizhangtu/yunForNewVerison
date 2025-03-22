@@ -7,6 +7,7 @@ import json
 import configparser
 import hashlib
 import os
+os.chdir(os.path.dirname(__file__)) # 有些人不喜欢cd到这个目录，帮他cd一下
 from typing import List, Dict
 from gmssl.sm4 import CryptSM4, SM4_ENCRYPT, SM4_DECRYPT
 import sys
@@ -17,6 +18,10 @@ import gzip
 from tqdm import tqdm
 import argparse
 from tools.drift import add_drift
+from gmssl import sm4
+from Crypto.Util.Padding import pad, unpad
+import time
+from tools.Login import Login
 
 """
 加密模式：sm2非对称加密sm4密钥
@@ -24,10 +29,93 @@ from tools.drift import add_drift
 # 偏移量
 # default_iv = '\1\2\3\4\5\6\7\x08' 失效
 
-PublicKey = 'BL7JvEAV7Wci0h5YAysN0BPNVdcUhuyJszJLRwnurav0CGftcrVcvrWeCPBIjIIBF371teRbrCS9V1Wyq7i3Arc='
-PrivateKey = 'P3s0+rMuY4Nt5cUWuOCjMhDzVNdom+W0RvdV6ngM+/E='
+# PublicKey = 'BL7JvEAV7Wci0h5YAysN0BPNVdcUhuyJszJLRwnurav0CGftcrVcvrWeCPBIjIIBF371teRbrCS9V1Wyq7i3Arc=' # 旧公钥
+PublicKey = 'BDdKFsuBf51UObke1pEgfER17biBg/5r8slqE4s8oOa8lVesWgIUxsRc+AmZ72GcuJ56f7avnyJe3CJY4n00LU4=' # 3.4.7
+PrivateKey = 'P3s0+rMuY4Nt5cUWuOCjMhDzVNdom+W0RvdV6ngM+/E=' # 3.4.7 私钥失效
 PUBLIC_KEY = b64decode(PublicKey)
 PRIVATE_KEY = b64decode(PrivateKey)
+
+my_host = None
+default_key = None
+CipherKeyEncrypted = None
+my_app_edition = None
+my_token = None
+my_device_id = None
+my_key = None
+my_device_name = None
+my_sys_edition = None
+my_utc = None
+my_uuid = None
+my_sign = None
+min_distance = None
+allow_overflow_distance = None
+single_mileage_min_offset = None
+single_mileage_max_offset = None
+cadence_min_offset = None
+cadence_max_offset = None
+split_count = None
+exclude_points = None
+min_consume = None
+max_consume = None
+strides = None
+md5key = None
+platform = None
+
+def set_args(conf_path: str):
+    global my_host, default_key, CipherKeyEncrypted, my_app_edition, my_token, my_device_id
+    global my_key, my_device_name, my_sys_edition, my_utc, my_uuid, my_sign
+    global min_distance, allow_overflow_distance, single_mileage_min_offset, single_mileage_max_offset
+    global cadence_min_offset, cadence_max_offset, split_count, exclude_points, min_consume, max_consume
+    global strides, PUBLIC_KEY, PRIVATE_KEY, md5key, platform
+    
+    # 加载配置文件
+    conf = configparser.ConfigParser()
+    conf.read(conf_path, encoding="utf-8")
+
+    # 学校、keys和版本信息
+    my_host = conf.get("Yun", "school_host") # 学校的host
+    default_key = conf.get("Yun", "cipherkey") # 加密密钥
+    CipherKeyEncrypted = conf.get("Yun", "cipherkeyencrypted") # 加密密钥的sm2加密版本
+    my_app_edition = conf.get("Yun", "app_edition") # app版本（我手机上是3.0.0）
+
+    # 用户信息，包括设备信息
+    my_token = conf.get("User", 'token') # 用户token 
+    my_device_id = conf.get("User", "device_id") # 设备id （据说很随机，抓包搞几次试试看）
+    my_key = conf.get("User", "map_key") # map_key是高德地图的开发者密钥
+    my_device_name = conf.get("User", "device_name") # 手机名称
+    my_sys_edition = conf.get("User", "sys_edition") # 安卓版本（大版本）
+    my_utc = conf.get('User', 'utc') or str(int(time.time()))
+    my_uuid = conf.get("User", "uuid")
+    my_sign = conf.get("User", "sign")
+
+    # 跑步相关的信息
+    min_distance = float(conf.get("Run", "min_distance")) # 2公里
+    allow_overflow_distance = float(conf.get("Run", "allow_overflow_distance")) # 允许偏移超出的公里数
+    single_mileage_min_offset = float(conf.get("Run", "single_mileage_min_offset")) # 单次配速偏移最小
+    single_mileage_max_offset = float(conf.get("Run", "single_mileage_max_offset")) # 单次配速偏移最大
+    cadence_min_offset = int(conf.get("Run", "cadence_min_offset")) # 最小步频偏移
+    cadence_max_offset = int(conf.get("Run", "cadence_max_offset")) # 最大步频偏移
+    split_count = int(conf.get("Run", "split_count")) 
+    exclude_points = json.loads(conf.get("Run", "exclude_points")) # 排除点
+    min_consume = float(conf.get("Run", "min_consume")) # 配速最小和最大
+    max_consume = float(conf.get("Run", "max_consume"))
+    strides = float(conf.get("Run", "strides"))
+
+    PUBLIC_KEY = b64decode(conf.get("Yun", "PublicKey"))
+    PRIVATE_KEY = b64decode(conf.get("Yun", "PrivateKey"))
+
+    md5key = conf.get("Yun", "md5key")
+    platform = conf.get("Yun", "platform")
+    
+    return {
+        "my_token": my_token,
+        "my_device_id": my_device_id,
+        "my_device_name": my_device_name,
+        "my_utc": my_utc,
+        "my_uuid": my_uuid,
+        "my_sign": my_sign,
+        "my_key": my_key
+    }
 
 def parse_args():
     parser = argparse.ArgumentParser(description='云运动自动跑步脚本')
@@ -48,6 +136,7 @@ def bytes_to_hex(input_string):
     return hex_string
 
 sm2_crypt = sm2.CryptSM2(public_key=bytes_to_hex(PUBLIC_KEY[1:]), private_key=bytes_to_hex(PRIVATE_KEY), mode=1, asn1=True)
+
 def encrypt_sm4(value, SM_KEY, isBytes = False):
     crypt_sm4 = CryptSM4()
     crypt_sm4.set_key(SM_KEY, SM4_ENCRYPT)
@@ -73,6 +162,7 @@ def decrypt_sm2(info):
     decode_info = b64decode(info)  # 通过base64解码成二进制bytes
     decode_info = sm2_crypt.decrypt(decode_info)
     return decode_info
+
 
 def getsign(utc, uuid):
     sb = (
@@ -121,6 +211,29 @@ def default_post(router, data, headers=None, m_host=None, isBytes=False, gen_sig
         return decrypt_sm4(req.text, b64decode(default_key)).decode()
     except:
         return req.text
+
+def noTokenLogin():
+    print("config中token为空，是否尝试使用账号密码登录？(y/n)")
+    LoginChoice = input()
+    if LoginChoice == 'y':
+        token,DeviceId,DeviceName,uuid,sys_edition = Login.main()
+        #TEST CONTENT
+        print("是否保存本次登录产生的token和uuid？(y/n)")
+        TokenWrite = input()
+        if TokenWrite == 'y':
+            config = configparser.ConfigParser()
+            config.read('config.ini', encoding='utf-8')
+            config.set('User', 'token', token)
+            config.set('User', 'uuid', uuid)
+            config.set('User', 'device_id', DeviceId)
+            config.set('User', 'device_name', DeviceName)
+            config.set('User', 'sys_edition', sys_edition)
+            with open('config.ini', 'w+', encoding='utf-8') as f:
+                config.write(f)
+        return token,DeviceId,DeviceName,uuid,sys_edition
+    elif LoginChoice == 'n':
+        print("由于缺少token退出")
+        exit()
 
 class Yun_For_New:
 
@@ -467,50 +580,17 @@ class Yun_For_New:
         resp = default_post("/run/finish", json.dumps(data))
         print(resp)
 
-if __name__ == '__main__':
+def main(run = True):
     args = parse_args()
     cfg_path = args.config_path
-    # 加载配置文件
-    # cfg_path = "./config.ini"
-    conf = configparser.ConfigParser()
-    conf.read(cfg_path, encoding="utf-8")
-
-    # 学校、keys和版本信息
-    my_host = conf.get("Yun", "school_host") # 学校的host
-    default_key = conf.get("Yun", "CipherKey") # 加密密钥
-    CipherKeyEncrypted = conf.get("Yun", "CipherKeyEncrypted") # 加密密钥的sm2加密版本
-    my_app_edition = conf.get("Yun", "app_edition") # app版本（我手机上是3.0.0）
-
-    # 用户信息，包括设备信息
-    my_token = conf.get("User", 'token') # 用户token 
-    my_device_id = conf.get("User", "device_id") # 设备id （据说很随机，抓包搞几次试试看）
-    my_key = conf.get("User", "map_key") # map_key是高德地图的开发者密钥
-    my_device_name = conf.get("User", "device_name") # 手机名称
-    my_sys_edition = conf.get("User", "sys_edition") # 安卓版本（大版本）
-    my_utc = conf.get("User", "utc")
-    my_uuid = conf.get("User", "uuid")
-    my_sign = conf.get("User", "sign")
-
-    # 跑步相关的信息
-    # my_point = conf.get("Run", "point") # 当前位置，取消，改到map.json
-    min_distance = float(conf.get("Run", "min_distance")) # 2公里
-    allow_overflow_distance = float(conf.get("Run", "allow_overflow_distance")) # 允许偏移超出的公里数
-    single_mileage_min_offset = float(conf.get("Run", "single_mileage_min_offset")) # 单次配速偏移最小
-    single_mileage_max_offset = float(conf.get("Run", "single_mileage_max_offset")) # 单次配速偏移最大
-    cadence_min_offset = int(conf.get("Run", "cadence_min_offset")) # 最小步频偏移
-    cadence_max_offset = int(conf.get("Run", "cadence_max_offset")) # 最大步频偏移
-    split_count = int(conf.get("Run", "split_count")) 
-    exclude_points = json.loads(conf.get("Run", "exclude_points")) # 排除点
-    min_consume = float(conf.get("Run", "min_consume")) # 配速最小和最大
-    max_consume = float(conf.get("Run", "max_consume"))
-    strides = float(conf.get("Run", "strides"))
-
-    PUBLIC_KEY = b64decode(conf.get("Yun", "PublicKey"))
-    PRIVATE_KEY = b64decode(conf.get("Yun", "PrivateKey"))
-
-    md5key = conf.get("Yun", "md5key")
-    platform = conf.get("Yun", "platform")
+    
+    # 设置全局变量
+    user_info = set_args(cfg_path)
+    global my_token, my_device_id, my_device_name, my_uuid, my_sys_edition
     if not args.auto_run:
+        if len(my_token) == 0:
+            my_token, my_device_id, my_device_name, my_uuid, my_sys_edition = noTokenLogin()
+        
         print("确定数据无误：")
     print("Token: ".ljust(15) + my_token)
     print('deviceId: '.ljust(15) + my_device_id)
@@ -519,6 +599,10 @@ if __name__ == '__main__':
     print('uuid: '.ljust(15) + my_uuid)
     print('sign: '.ljust(15) + my_sign)
     print('map_key: '.ljust(15) + my_key)
+
+    if not run:
+        return
+
     if args.auto_run:
         sure = 'y'
     else:
@@ -532,9 +616,10 @@ if __name__ == '__main__':
             if print_table == 'y':
                 if not args.auto_run:
                     print("warning:\n打表模式下\n跑步的步频、配速等信息受tasklist.json控制，不会读取map.json，config.ini的跑步信息失效")
-                    choice = input("请选择校区（1.翡翠湖校区,2.屯溪路校区,3.自定义）")
+                    choice = input("请选择校区（1.翡翠湖校区,2.屯溪路校区,3.宣城校区,4.自定义(文件夹tasks_else)）")
                     if(choice == '1'): path = "./tasks_fch"
                     elif(choice == '2'): path = "./tasks_txl"
+                    elif(choice == '3') : path = "./tasks_xc"
                     else: path = "./tasks_else"
                     isDrift = input("是否为数据添加漂移：[y/n]")
                     if isDrift == 'y':
@@ -569,4 +654,7 @@ if __name__ == '__main__':
         print("跑步失败了，错误信息：")
         print(e)
         input()
+
+if __name__ == '__main__':
+    main()
 
