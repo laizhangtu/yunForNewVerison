@@ -18,7 +18,7 @@ import gzip
 from tqdm import tqdm
 import argparse
 from tools.drift import add_drift
-from gmssl import sm4
+from gmssl import sm4, func
 from Crypto.Util.Padding import pad, unpad
 import time
 from tools.Login import Login
@@ -152,10 +152,11 @@ def decrypt_sm4(value, SM_KEY):
     decrypt_value = crypt_sm4.crypt_ecb(b64decode(value))
     return decrypt_value
 
-# warning：实测gmssl的sm2加密给Java Hutool解密结果不对，所以下面的2函数暂不使用
 def encrypt_sm2(info):
     encode_info = sm2_crypt.encrypt(info.encode("utf-8"))
-    encode_info = b64encode(encode_info).decode()  # 将二进制bytes通过base64编码
+    encode_hex = encode_info.hex().upper()
+    encode_hex_with_prefix = "04" + encode_hex # 添加04头
+    encode_info = b64encode(bytes.fromhex(encode_hex_with_prefix)).decode()  # 将二进制bytes通过base64编码
     return encode_info
 
 def decrypt_sm2(info):
@@ -163,6 +164,13 @@ def decrypt_sm2(info):
     decode_info = sm2_crypt.decrypt(decode_info)
     return decode_info
 
+def generate_sm4():
+    # 生成32位HEX字符串（对应16字节密钥）
+    key_hex = func.random_hex(32)
+    key_bytes = bytes.fromhex(key_hex)  # 转换为字节类型
+    # 转换为Base64字符串
+    key_base64 = b64encode(key_bytes).decode('utf-8')
+    return key_base64
 
 def getsign(utc, uuid):
     sb = (
@@ -179,7 +187,7 @@ def getsign(utc, uuid):
     m.update(sb.encode("utf-8"))
     return m.hexdigest()
 
-def default_post(router, data, headers=None, m_host=None, isBytes=False, gen_sign=True):
+def default_post(router, data, headers=None, m_host=None, isBytes=False, gen_sign=True, key_ctx=None):
     if m_host is None:
         m_host = my_host
     url = m_host + router
@@ -197,18 +205,25 @@ def default_post(router, data, headers=None, m_host=None, isBytes=False, gen_sig
             'Content-Type': 'application/json; charset=utf-8',
             'Connection': 'Keep-Alive',
             'Accept-Encoding': 'gzip',
-            'User-Agent': 'okhttp/3.12.0',
+            'User-Agent': 'okhttp/4.9.1',
             'utc': my_utc,
             'uuid': my_uuid,
             'sign': sign
         }
+    sm4_key = ""
+    if default_key and default_key.strip():
+        sm4_key = default_key
+    else:
+        sm4_key = generate_sm4()
     data_json = {
-        "cipherKey":CipherKeyEncrypted,
-        "content":encrypt_sm4(data, b64decode(default_key),isBytes=isBytes)
+        "cipherKey":encrypt_sm2(sm4_key),
+        "content":encrypt_sm4(data, b64decode(sm4_key),isBytes=isBytes)
     }
     req = requests.post(url=url, data=json.dumps(data_json), headers=headers) # data进行了加密
+    if isinstance(key_ctx, dict):
+        key_ctx["key"] = sm4_key
     try:
-        return decrypt_sm4(req.text, b64decode(default_key)).decode()
+        return decrypt_sm4(req.text, b64decode(sm4_key)).decode()
     except:
         return req.text
 

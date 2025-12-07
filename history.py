@@ -168,15 +168,16 @@ def his(args = None):
     
     # 获取详细跑步记录
     print("\n正在获取详细记录...")
+    key_ctx = {}
     try:
         run_detail_json = default_post("/run/crsReocordInfo", 
                                       data=json.dumps({
                                           "id": selected_run['id'], 
                                           "tableName": selected_term['value']
-                                      }))
+                                      }), key_ctx=key_ctx)
         
         # 解密记录
-        key = b64decode(default_key)
+        key = b64decode(key_ctx["key"])
         text = gzip.decompress(decrypt_sm4(run_detail_json, key)).decode()
         run_detail = json.loads(text)
         
